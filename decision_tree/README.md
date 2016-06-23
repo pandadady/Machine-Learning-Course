@@ -46,7 +46,9 @@
     
     The key step is to construct a decision tree splitting attribute.
     
-    The so-called splitting attribute is to construct different branches according to the different division of a certain characteristic attribute, 
+    The so-called splitting attribute is to construct different branches according to the different 
+    
+    division of a certain characteristic attribute, 
     
     and the goal is to make each split subset as pure as possible.
     
