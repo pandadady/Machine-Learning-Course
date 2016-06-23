@@ -78,25 +78,45 @@
 
     Skip...
 5.Algorithm thinking
+
     here has a example
+    
     -----------------------------------------------------------------------
+    
     age	   salary student credit	PC
+    
     <=30	high	no	middle	no
+    
     <=30	high	no	good	no
+    
     31~40	high	no	middle	yes
+    
     >40	    middle	no	middle	yes
+    
     >40	    low	    yes	middle	yes
+    
     >40	    low	    yes	good	no
+    
     31~40	low     yes	good	yes
+    
     <=30	middle	no	middle	no
+    
     <=30	low	    yes	middle	yes
+    
     >40	    middle	yes	middle	yes
+    
     <=30	middle	yes	good	yes
+    
     31~40	middle	no	good	yes
+    
     31~40	high	yes	middle	yes
+    
     >40	    middle	no	good	no
+    
     -----------------------------------------------------------------------
+    
     (1) Load data to generate set of data and set of label.
+    
     (2) 
     
     
