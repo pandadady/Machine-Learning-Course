@@ -23,7 +23,7 @@
     ID3 is a decision tree classification algorithm based on information entropy.
 3.Characteristic
 
-    advantage：
+    Advantage：
     
         (1) The computational complexity is not high.
         
@@ -33,7 +33,7 @@
         
         (4) The lack of intermediate value has little influence on the results
     
-    disadvantage：
+    Disadvantage：
     
         There may be excessive matching problem.
     
