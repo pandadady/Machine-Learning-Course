@@ -44,12 +44,28 @@
 
 4.Algorithm thinking
     
-    The key step is to construct a decision tree splitting attribute.
+    The key step in constructing a decision tree is splitting attributes. 
     
-    The so-called splitting attribute is to construct different branches according to the different division of a certain characteristic attribute, 
+    splitting attribute is to construct different branches according to the different 
+    
+    division of a certain characteristic attribute, 
     
     and the goal is to make each split subset as pure as possible.
     
-    There are many kinds of attribute selection algorithms.Here to introduce ID3
+    The key of splitting attribute is to choose the measure of attribute selection
     
-      
+    The measure of attribute selection is a split criterion. There are many algorithm about measure of attribute selection.
+    
+    here to introduce ID3.
+    
+    From the information theory, we know that the smaller the expected information, 
+    
+    the greater the information gain, and thus the higher the purity.
+    
+    So the core idea of ID3 algorithm is to use the information gain as the standard to select attributes.
+
+    That is to say, when each split, the attribute of the maximum information gain is needed to split.
+    
+    
+    
+    
