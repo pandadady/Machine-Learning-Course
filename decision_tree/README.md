@@ -42,7 +42,7 @@
     
         Nominal type and numeric type
 
-4.Algorithm thinking
+4.Core
     
     The key step in constructing a decision tree is splitting attributes. 
     
@@ -54,11 +54,13 @@
     
     The key of splitting attribute is to choose the measure of attribute selection
     
-    The measure of attribute selection is a split criterion. There are many algorithm about measure of attribute selection.
+    The measure of attribute selection is a split criterion. 
+    
+    There are many algorithm about measure of attribute selection.
     
     here to introduce ID3.
     
-    From the information theory, we know that the smaller the expected information, 
+    From the information theory, we know that the smaller the expectation information, 
     
     the greater the information gain, and thus the higher the purity.
     
@@ -66,6 +68,36 @@
 
     That is to say, when each split, the attribute of the maximum information gain is needed to split.
     
+    Entropy repesents the entire infomation cotent. 
+    
+    The sum of Expectation information each attribute is Entropy.
+    
+    The infomation gain of certain attribute is Entropy reduce its Expectation information.
+    
+    The formula of Entropy and Expectation information is everywhere on Net and github doesn't support enter formula.
+
+    Skip...
+5.Algorithm thinking
+    here has a example
+    -----------------------------------------------------------------------
+    age	   salary student credit	PC
+    <=30	high	no	middle	no
+    <=30	high	no	good	no
+    31~40	high	no	middle	yes
+    >40	    middle	no	middle	yes
+    >40	    low	    yes	middle	yes
+    >40	    low	    yes	good	no
+    31~40	low     yes	good	yes
+    <=30	middle	no	middle	no
+    <=30	low	    yes	middle	yes
+    >40	    middle	yes	middle	yes
+    <=30	middle	yes	good	yes
+    31~40	middle	no	good	yes
+    31~40	high	yes	middle	yes
+    >40	    middle	no	good	no
+    -----------------------------------------------------------------------
+    (1) Load data to generate set of data and set of label.
+    (2) 
     
     
     
