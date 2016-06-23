@@ -70,16 +70,16 @@
     
     Entropy repesents the entire infomation cotent. 
     
-    The sum of Expectation information each attribute is Entropy.
+    The sum of expectation information of each attribute is entropy.
     
-    The infomation gain of certain attribute is Entropy reduce its Expectation information.
+    The infomation gain of certain attribute is Entropy reduce its expectation information.
     
-    The formula of Entropy and Expectation information is everywhere on Net and github doesn't support enter formula.
+    The formula of entropy and expectation information is everywhere on Net and github doesn't support enter formula.
 
     Skip...
 5.Algorithm thinking
 
-    here has a example
+    Here has a example
     
     -----------------------------------------------------------------------
     
@@ -117,7 +117,20 @@
     
     (1) Load data to generate set of data and set of label.
     
-    (2) 
+    (2) calculate entropy of entire set of data
+    
+    (3) calculate expectation information of each attribute
+    
+    (4) calculate infomation gain of each attribute, and use the attribute of maximum infomation gain to split
+    
+    (5) Use data type of dict to save decision tree, and the root node is just splitting
+    
+    (5) The method of spliting is using values of the attribute to devide data set into many sub sets, 
+    
+        the number of sub data sets is the number of values of attribute.
+        
+    (6) For each sub data set, repeat setp 2 and 3  till there isn't any attribute to be splited， and then vote to decide result
+    
     
     
     
