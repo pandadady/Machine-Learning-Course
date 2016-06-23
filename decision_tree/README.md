@@ -1,6 +1,6 @@
 #decision tree
 
-1.background
+1.Background
 
     In real life, we will encounter this kind of problem.
     
@@ -12,7 +12,7 @@
     
     In the situation, we present decision_tree algorithm.
     
-2.definition
+2.Definition
 
     In the situation of known all kinds of attribute probability of happening,
     
@@ -21,3 +21,24 @@
     There are many algorithm about building decision tree, such as ID3,CART.
     
     ID3 is a decision tree classification algorithm based on information entropy.
+3.Characteristic
+
+    advantage：
+    
+        (1) The computational complexity is not high.
+        
+        (2) The output is easy to understand.
+        
+        (3) Able to handle irrelevant feature data.
+        
+        (4) The lack of intermediate value has little influence on the results
+    
+    disadvantage：
+    
+        There may be excessive matching problem.
+    
+    Application scope:
+    
+        Nominal type and numeric type
+
+
