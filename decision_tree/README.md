@@ -21,6 +21,7 @@
     There are many algorithm about building decision tree, such as ID3,CART.
     
     ID3 is a decision tree classification algorithm based on information entropy.
+    
 3.Characteristic
 
     Advantage：
@@ -41,4 +42,6 @@
     
         Nominal type and numeric type
 
-
+4.Algorithm thinking
+    Entropy = -p(i)*log2(P(i))
+      
