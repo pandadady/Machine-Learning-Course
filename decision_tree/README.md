@@ -129,8 +129,26 @@
     
         the number of sub data sets is the number of values of attribute.
         
-    (6) For each sub data set, repeat setp 2 and 3  till there isn't any attribute to be splited， and then vote to decide result
+    (6) For each sub data set, repeat setp 2 and 3  till there isn't any attribute to be splited， 
     
-    
+        and then vote to decide result
+-----------------------------------------------------------------------   
+    {
+        'age': {
+            '>40': {
+                'credit': {
+                    'middle': 'yes',
+                    'good': 'no'
+                }
+            },
+            '<=30': {
+                'student': {
+                    'yes': 'yes',
+                    'no': 'no'
+                }
+            },
+            '31~40': 'yes'
+        }
+    }
     
     
