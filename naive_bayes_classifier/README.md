@@ -64,5 +64,7 @@
      
      (3)  According to bayes formula,
      
-<img src="http://chart.googleapis.com/chart?cht=tx&chl=P(C_%7Bi%7D%7CW)%3D%5Cfrac%7BP(W%7CC_%7Bi%7D)P(C_%7Bi%7D)%20%7D%7BP(w)%7D&chco=000000&chf=a,s,00000080" style="border:none;" />
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=P(C_%7Bi%7D%7CW)%3D%5Cfrac%7BP(W%7CC_%7Bi%7D)P(C_%7Bi%7D)%20%7D%7BP(W)%7D&chco=000000&chf=a,s,00000080" style="border:none;" />
+
+
     
