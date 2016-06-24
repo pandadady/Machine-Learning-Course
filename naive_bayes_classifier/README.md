@@ -45,3 +45,13 @@
      ['mr', 'licks', 'ate', 'my', 'steak', 'how', 'to', 'stop', 'him'],
      ['quit', 'buying', 'worthless', 'dog', 'food', 'stupid']]
      
+     Given its classification is below
+     
+     [0,
+     1,
+     0,
+     1,
+     0,
+     1]
+     
+     
