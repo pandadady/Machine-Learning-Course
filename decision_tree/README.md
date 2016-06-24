@@ -1,6 +1,6 @@
 #decision tree
 
-1.Background
+###1.Background
 
     In real life, we will encounter this kind of problem.
     
@@ -12,7 +12,7 @@
     
     In the situation, we present decision_tree algorithm.
     
-2.Definition
+###2.Definition
 
     In the situation of known all kinds of attribute probability of happening,
     
@@ -22,7 +22,7 @@
     
     ID3 is a decision tree classification algorithm based on information entropy.
     
-3.Characteristic
+###3.Characteristic
 
     Advantage：
     
@@ -42,7 +42,7 @@
     
         Nominal type and numeric type
 
-4.Core
+###4.Core
     
     The key step in constructing a decision tree is splitting attributes. 
     
@@ -80,7 +80,7 @@
     
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=Gain_%7Bj%7D%3D%20Entropy-Expectation_%7Bj%7D%20&chf=a,s,00000080" style="border:none;" />
 
-5.Algorithm thinking
+###5.Algorithm thinking
 
     Here has a example
     
