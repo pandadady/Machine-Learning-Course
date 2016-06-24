@@ -54,4 +54,7 @@
      0,
      1]
      
+     The question is how to pridict new text belong to which class.
      
+     (1)
+    
