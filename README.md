@@ -2,10 +2,10 @@
 This repository is used to practice machine learning algorithms.Including: principle derivation, algorithm application examples
 
 
-Update
+1.Update
 ------------------------------------------------------------------------
-### Decision tree
-### Native bayes classfication
+### (1).Decision tree
+### (2).Native bayes classfication
 
 
 
