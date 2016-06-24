@@ -70,11 +70,17 @@
     
     Entropy repesents the entire infomation cotent. 
     
+    <img src="http://chart.googleapis.com/chart?cht=tx&chl=Entropy%20%3D%20-%5Csum_%7Bi%3D1%7D%5EN%20p_%7Bi%7Dlog_%7B2%7Dp_%7Bi%7D&chf=a,s,00000080" style="border:none;" />
+    
     The sum of expectation information of each attribute is entropy.
+    
+    <img src="http://chart.googleapis.com/chart?cht=tx&chl=Expectation%20%3D%20%5Csum_%7Bj%3D1%7D%5EV%20%5Cfrac%7BD_%7Bj%7D%7D%7BD%7DEntropy_%7Bj%7D&chf=a,s,00000080" style="border:none;" />
     
     The infomation gain of certain attribute is Entropy reduce its expectation information.
     
-    The formula of entropy and expectation information is everywhere on Net and github doesn't support enter formula.
+    <img src="http://chart.googleapis.com/chart?cht=tx&chl=Gain_%7Bj%7D%3D%20Entropy-Expectation_%7Bj%7D%20&chf=a,s,00000080" style="border:none;" />
+    
+    
 
     Skip...
 5.Algorithm thinking
