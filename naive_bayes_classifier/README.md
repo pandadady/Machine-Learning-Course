@@ -1,6 +1,6 @@
 #naive bayes classifier
 
-1.Background
+###1.Background
 
     First of all, make clear classification problem.
     
@@ -18,7 +18,7 @@
     
     Among them, P(A|B) is the probability of the occurrence of A event when the B event occurs.
     
-3.Characteristic
+###2.Characteristic
 
     Advantage:
     
@@ -32,7 +32,7 @@
     
         Nominal type
     
-4.Algorithm thinking
+##3.Algorithm thinking
     
     Here is a example of text classification.
     
