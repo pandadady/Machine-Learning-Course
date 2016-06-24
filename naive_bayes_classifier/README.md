@@ -56,5 +56,13 @@
      
      The question is how to pridict new text belong to which class.
      
-     (1)
+     (1) Extract words from text and add into vocabulary.
+     
+     (2) Use vocabulary to transfer text into words vector.
+     
+     Each vector is composed by 0 and 1 which repesents a word occurs in the text. 
+     
+     (3)  According to bayes formula,
+     
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=P(C_%7Bi%7D%7CW)%3D%5Cfrac%7BP(W%7CC_%7Bi%7D)P(C_%7Bi%7D)%20%7D%7BP(w)%7D&chco=000000&chf=a,s,00000080" style="border:none;" />
     
