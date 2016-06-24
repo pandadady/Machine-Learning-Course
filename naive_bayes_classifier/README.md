@@ -68,7 +68,7 @@
 
         W repesents words vector. Ci repesents class 1 or 0. Usually, use the following formula to get P(W|Ci)
         
-        <img src="http://chart.googleapis.com/chart?cht=tx&chl=P(W%7CC_%7Bi%7D)%3DP(w_%7B1%7D%7CC_%7Bi%7D))%2BP(w_%7B2%7D%7CC_%7Bi%7D))%2B...%2BP(w_%7Bn%7D%7CC_%7Bi%7D))&chco=000000&chf=a,s,00000080" style="border:none;" />
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=P(W%7CC_%7Bi%7D)%3DP(w_%7B1%7D%7CC_%7Bi%7D))%2BP(w_%7B2%7D%7CC_%7Bi%7D))%2B...%2BP(w_%7Bn%7D%7CC_%7Bi%7D))&chco=000000&chf=a,s,00000080" style="border:none;" />
         
         wn repesents the number n word of text.
     
