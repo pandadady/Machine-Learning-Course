@@ -12,7 +12,7 @@
     
     Secondly, make clear the bayes theorem.
     
-    <img src="http://chart.googleapis.com/chart?cht=tx&chl=P(A%7CB)%3D%5Cfrac%7BP(B%7CA)P(A)%20%7D%7BP(B)%7D&chco=000000&chf=a,s,00000080" style="border:none;" />
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=P(A%7CB)%3D%5Cfrac%7BP(B%7CA)P(A)%20%7D%7BP(B)%7D&chco=000000&chf=a,s,00000080" style="border:none;" />
     
     Among them, P(A|B) is the probability of the occurrence of A event when the B event occurs.
       
