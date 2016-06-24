@@ -4,7 +4,7 @@
 
     First of all, make clear classification problem.
     
-    Classification problem often use Empirical methods to construct the mapping rules.
+    Classification problem often use empirical methods to construct the mapping rules.
     
     In general situation, classification problem is lack of enough infomation to construct 
     
@@ -62,7 +62,7 @@
      
      Each vector is composed by 0 and 1 which repesents a word occurs in the text. 
      
-     (3) According to bayes formula,
+     (3) According to bayes formula, it is able to get formula as below.
      
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=P(C_%7Bi%7D%7CW)%3D%5Cfrac%7BP(W%7CC_%7Bi%7D)P(C_%7Bi%7D)%20%7D%7BP(W)%7D&chco=000000&chf=a,s,00000080" style="border:none;" />
 
@@ -70,5 +70,11 @@
         
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=P(W%7CC_%7Bi%7D)%3DP(w_%7B1%7D%7CC_%7Bi%7D))%2BP(w_%7B2%7D%7CC_%7Bi%7D))%2B...%2BP(w_%7Bn%7D%7CC_%7Bi%7D))&chco=000000&chf=a,s,00000080" style="border:none;" />
         
-        wn repesents the number n word of text.
+        wn repesents the number n word of text. P(Ci) equals the number of 1 or 0 text be divided by the total number of text.
+        
+        If there is a new text as input, Output will be the maximum of P(C1|W) and P(C2|W), 
+        
+        and the results often skip to be devided by P(W) because they are all going to do so.
+        
+    (4) Calculate the maximum of P(C1|W) and P(C2|W) to choose class of new text.
     
