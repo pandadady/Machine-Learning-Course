@@ -2,7 +2,7 @@
 
 1.Background
 
-    First of all, make clear the characteristic of classification problem.
+    First of all, make clear classification problem.
     
     Classification problem often use Empirical methods to construct the mapping rules.
     
@@ -17,4 +17,9 @@
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=P(A%7CB)%3D%5Cfrac%7BP(B%7CA)P(A)%20%7D%7BP(B)%7D&chco=000000&chf=a,s,00000080" style="border:none;" />
     
     Among them, P(A|B) is the probability of the occurrence of A event when the B event occurs.
-      
+    
+3.Characteristic
+
+    Advantage:
+        (1)
+    
