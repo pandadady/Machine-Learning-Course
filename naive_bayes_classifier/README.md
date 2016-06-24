@@ -6,7 +6,9 @@
     
     Classification problem often use Empirical methods to construct the mapping rules.
     
-    In general situation, classification problem is lack of enough infomation to construct hundred percent correct mapping rules,
+    In general situation, classification problem is lack of enough infomation to construct 
+    
+    hundred percent correct mapping rules,
     
     but it will achieve a certain sense correct according to learning experience data.
     
