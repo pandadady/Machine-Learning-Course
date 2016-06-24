@@ -21,5 +21,14 @@
 3.Characteristic
 
     Advantage:
-        (1)
+    
+        Able to handle multiple classification problems.
+        
+    Disadvamtage:
+    
+        Sensitive to input data
+        
+    Application scope:
+    
+        Nominal type
     
