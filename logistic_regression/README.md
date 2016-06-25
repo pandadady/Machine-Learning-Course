@@ -17,6 +17,18 @@
     
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=%5Csigma(t)%20%3D%20%5Cfrac%7B1%7D%7B1%2Be%5E%7B-t%7D%7D&chco=000000&chf=a,s,00000080" style="border:none;" />
 
+     A graph of the logistic function on the t-interval (-6,6) is shown below.
+     
 <img src="https://upload.wikimedia.org/wikipedia/commons/8/88/Logistic-curve.svg" height="200" width="300"/>
+
+    assume that t is a linear function of a single explanatory variable  x 
+    
+    the case where t is a linear combination of multiple explanatory variables is treated similarly. 
+    
+    We can then express t as follows:
+
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=t%20%3D%20%5Cbeta_%7B0%7D%20%2B%20%5Cbeta_%7B1%7Dx&chco=000000&chf=a,s,00000080" style="border:none;" />
+
+   
     
 
