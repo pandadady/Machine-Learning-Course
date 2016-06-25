@@ -25,7 +25,7 @@
     
     We can then express t as follows:
 
-<img src="http://chart.googleapis.com/chart?cht=tx&chl=t%20%3D%20%5Cbeta_%7B0%7D%20%2B%20%5Cbeta_%7B1%7Dx&chco=000000&chf=a,s,00000080" style="border:none;" />
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=t%3Dw_%7B0%7D%2Bw_%7B1%7Dx&chco=000000&chf=a,s,00000080" style="border:none;" />
 
     The logistic function can now be written as:
     
