@@ -51,7 +51,11 @@
     
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=p(Y_%7Bi%7D%3D1%7CX)%3D1-p_%7Bi%7D%0A%0A&chco=000000&chf=a,s,00000080" style="border:none;" />
 
+    so
+    
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=p(Y_%7Bi%7D)%3Dp_%7Bi%7D%5E%7BY_%7Bi%7D%7D(1-p_%7Bi%7D)%5E%7B1-Y_%7Bi%7D%7D%0A%0A&chco=000000&chf=a,s,00000080" style="border:none;" />
+
+
     
     
     
