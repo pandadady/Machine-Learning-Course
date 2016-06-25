@@ -37,7 +37,11 @@
     
 ###3.Optimum solution
     
+    The key of the algorithm is to find the optimal w.
     
-   
+    According to the definition of the likelihood function, we get the following formula。
+    
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=L(Y)%3D%5Cprod_%7Bi%3D1%7D%5Em%20p(Y_i)&chco=000000&chf=a,s,00000080" style="border:none;" />
+
     
 
