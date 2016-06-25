@@ -45,7 +45,7 @@
 
     assume that Yi is in interval(0,1), we get the following formula.
     
-<img src="http://chart.googleapis.com/chart?cht=tx&chl=p(Y_%7Bi%7D%3D0%7CX)%3Dp_%7Bi%7D%0A%0Ap(Y_%7Bi%7D%3D1%7CX)%3D1-p_%7Bi%7D%0A%0A&chco=000000&chf=a,s,00000080" style="border:none;" />
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=p(Y_%7Bi%7D%3D0%7CX)%3Dp_%7Bi%7D%0A%0A&chco=000000&chf=a,s,00000080" style="border:none;" />
     
     
     
