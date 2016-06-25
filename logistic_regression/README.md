@@ -59,7 +59,11 @@
     
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=L(W)%3D%5Cprod_%7Bi%3D1%7D%5EM%20(%5Cfrac%7B1%7D%7B1%2Be%5E%7B-(w_%7B0%7D%2Bw_%7B1%7Dx%5E%7Bi%7D_%7B1%7D%2B...%2Bw_%7Bn%7Dx%5E%7Bi%7D_%7Bn%7D)%7D%7D)%5E%7BY%5E%7Bi%7D%7D%0A(1-%5Cfrac%7B1%7D%7B1%2Be%5E%7B-(w_%7B0%7D%2Bw_%7B1%7Dx%5E%7Bi%7D_%7B1%7D%2B...%2Bw_%7Bn%7Dx%5E%7Bi%7D_%7Bn%7D)%7D%7D)%5E%7B1-Y%5E%7Bi%7D%7D&chco=000000&chf=a,s,00000080" style="border:none;" />
     
-    The optimal w is the solution of the maximum value of L value.
+    The optimal w is the solution of the maximum value of L(w) value.
+    
+    Because lnL (W) is a monotonically increasing function of L (W), the optimal solution is consistent.
+    
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=lnL(w)%3D%5Csum_%7Bx%3D1%7D%5EM%20(Y%5E%7Bi%7Dln%5Cfrac%7Be%5E%7BX%5E%7Bi%7D%7D%7D%7B1%2Be%5E%7BX%5E%7Bi%7D%7D%7D%2B(1-Y%5E%7Bi%7D)ln%5Cfrac%7B1%7D%7Be%5E%7BX%5E%7Bi%7D%7D%2B1%7D)&chco=000000&chf=a,s,00000080" style="border:none;" />
     
     Gradient ascent method is needed here.For a linear function, the gradient is the slope.
     
