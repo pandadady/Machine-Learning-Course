@@ -13,7 +13,7 @@
     
     The logistic function is useful because it can take an input with any value from negative to positive infinity, 
     
-    whereas the output always takes values between zero and one[14] and hence is interpretable as a probability. 
+    whereas the output always takes values between 0 and 1 and hence is interpretable as a probability. 
     
-    The logistic function {\displaystyle \sigma (t)} \sigma (t) is defined as follows:
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=%5Csigma(t)%20%3D%20%5Cfrac%7B1%7D%7B1%2Be%5E%7B-t%7D%7D&chco=000000&chf=a,s,00000080" style="border:none;" />
 
