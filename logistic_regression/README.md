@@ -17,3 +17,5 @@
     
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=%5Csigma(t)%20%3D%20%5Cfrac%7B1%7D%7B1%2Be%5E%7B-t%7D%7D&chco=000000&chf=a,s,00000080" style="border:none;" />
 
+    ![github](https://upload.wikimedia.org/wikipedia/commons/8/88/Logistic-curve.svg "github")
+
