@@ -43,9 +43,13 @@
     
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=L(Y)%3D%5Cprod_%7Bi%3D1%7D%5Em%20p(Y%5Ei)%0A&chco=000000&chf=a,s,00000080" style="border:none;" />
 
-    assume that Yi is in interval(0,1), we get the following formula.
+    Assume that
     
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=p(Y_%7Bi%7D%3D0%7CX)%3Dp_%7Bi%7D%0A%0A&chco=000000&chf=a,s,00000080" style="border:none;" />
+
+    And then
+    
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=p(Y_%7Bi%7D%3D1%7CX)%3D1-p_%7Bi%7D%0A%0A&chco=000000&chf=a,s,00000080" style="border:none;" />
     
     
     
