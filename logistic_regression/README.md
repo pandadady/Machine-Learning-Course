@@ -58,6 +58,14 @@
     Bring p(Yi) into likelihood function formula.
     
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=L(W)%3D%5Cprod_%7Bi%3D1%7D%5EM%20(%5Cfrac%7B1%7D%7B1%2Be%5E%7B-(w_%7B0%7D%2Bw_%7B1%7Dx%5E%7Bi%7D_%7B1%7D%2B...%2Bw_%7Bn%7Dx%5E%7Bi%7D_%7Bn%7D)%7D%7D)%5E%7BY%5E%7Bi%7D%7D%0A(1-%5Cfrac%7B1%7D%7B1%2Be%5E%7B-(w_%7B0%7D%2Bw_%7B1%7Dx%5E%7Bi%7D_%7B1%7D%2B...%2Bw_%7Bn%7Dx%5E%7Bi%7D_%7Bn%7D)%7D%7D)%5E%7B1-Y%5E%7Bi%7D%7D&chco=000000&chf=a,s,00000080" style="border:none;" />
+    
+    The optimal w is the solution of the maximum value of L value.
+    
+    Gradient ascent method is needed here.For a linear function, the gradient is the slope.
+    
+    <img src="http://chart.googleapis.com/chart?cht=tx&chl=w_%7Bk%7D%3Dw_%7Bk%7D%2B%5Calpha%20%5Cfrac%7B%5Cpart%20lnL(w)%7D%7B%5Cpart%20w_%7Bk%7D%7D&chco=000000&chf=a,s,00000080" style="border:none;" />
+    
+    
 
 
     
