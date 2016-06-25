@@ -6,6 +6,7 @@ This repository is used to practice machine learning algorithms.Including: princ
 ------------------------------------------------------------------------
 ### (1).Decision tree
 ### (2).Native bayes classfication
+### (3).Logistic regression
 
 
 
