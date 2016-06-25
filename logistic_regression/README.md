@@ -29,7 +29,7 @@
 
     The logistic function can now be written as:
     
-<img src="http://chart.googleapis.com/chart?cht=tx&chl=F(x)%20%3D%20%5Cfrac%7B1%7D%7B1%2Be%5E%7B-(%5Cbeta_%7B0%7D%20%2B%20%5Cbeta_%7B1%7Dx)%7D%7D&chco=000000&chf=a,s,00000080" style="border:none;" />
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=Y%3D%5Cfrac%7B1%7D%7B1%2Be%5E%7B-(w_%7B0%7D%2Bw_%7B1%7DX)%7D%7D&chco=000000&chf=a,s,00000080" style="border:none;" />
 
     They are independent given design matrix X and shared with parameters B.
     
