@@ -29,6 +29,10 @@
 
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=t%20%3D%20%5Cbeta_%7B0%7D%20%2B%20%5Cbeta_%7B1%7Dx&chco=000000&chf=a,s,00000080" style="border:none;" />
 
+    The logistic function can now be written as:
+    
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=F(x)%20%3D%20%5Cfrac%7B1%7D%7B1%2Be%5E%7B-(%5Cbeta_%7B0%7D%20%2B%20%5Cbeta_%7B1%7Dx)%7D%7D&chco=000000&chf=a,s,00000080" style="border:none;" />
+    
    
     
 
