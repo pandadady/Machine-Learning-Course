@@ -63,7 +63,7 @@
     
     Gradient ascent method is needed here.For a linear function, the gradient is the slope.
     
-    <img src="http://chart.googleapis.com/chart?cht=tx&chl=w_%7Bk%7D%3Dw_%7Bk%7D%2B%5Calpha%20%5Cfrac%7B%5Cpart%20lnL(w)%7D%7B%5Cpart%20w_%7Bk%7D%7D&chco=000000&chf=a,s,00000080" style="border:none;" />
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=w_%7Bk%7D%3Dw_%7Bk%7D%2B%5Calpha%20%5Cfrac%7B%5Cpart%20lnL(w)%7D%7B%5Cpart%20w_%7Bk%7D%7D&chco=000000&chf=a,s,00000080" style="border:none;" />
     
     
 
