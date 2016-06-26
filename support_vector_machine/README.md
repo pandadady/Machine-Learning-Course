@@ -30,5 +30,5 @@
     
     (1)  function margin and geometric margin.
     
-<img src="http://images.cnblogs.com/cnblogs_com/jerrylead/201103/201103131131571364.png" height="200" width="300"/>
+<img src="http://images.cnblogs.com/cnblogs_com/jerrylead/201103/201103131131571364.png" height="309" width="360"/>
     
