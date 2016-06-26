@@ -1,3 +1,27 @@
 #Support Vector Machine
 
 ###1.Summary
+    support vector machine is supervised learning models with associated learning algorithms that 
+    
+    analyze data used for classification and regression analysis. Given a set of training examples, 
+    
+    each marked for belonging to one of two categories, an SVM training algorithm builds a model that 
+    
+    assigns new examples into one category or the other, making it a non-probabilistic binary linear classifier. 
+    
+    Above paragraph is from English Wikipedia.
+    
+    Support vector machine is a classifier using the separating plane to classify the data.
+    
+    For the n-dimensional data separating plane is n-1 dimension
+
+    For a plane, the separating plane is a straight line.
+    
+    We hope that the points on both sides of the plane are far from the plane as far as possible.
+    
+    The nearest point to the separation surface is called the interval.
+    
+    The support vector is the closest point.
+    
+    The goal is to maximize the distance between the support vectors and the separation surface.
+    
