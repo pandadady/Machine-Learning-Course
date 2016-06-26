@@ -29,4 +29,4 @@
     The derivation of support vector machine algorithm is difficult for me at first.
     
     (1)  function margin and geometric margin.
-    
+    http://images.cnblogs.com/cnblogs_com/jerrylead/201103/201103131131571364.png
