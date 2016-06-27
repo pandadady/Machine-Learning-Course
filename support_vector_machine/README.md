@@ -1,4 +1,4 @@
-surface#Support Vector Machine
+#Support Vector Machine
 
 ###1.Summary
     support vector machine is supervised learning models with associated learning algorithms that 
