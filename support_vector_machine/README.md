@@ -30,7 +30,9 @@
     
     (1) function margin and geometric margin.
     
-        Given a training sample set，(xi,yi), x repesents feature, y repesents class -1 or 1. i repesents the number i sample.
+        Given a training sample set，(xi,yi), x repesents feature, y repesents class -1 or 1. 
+        
+        i repesents the number i sample.
         
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=z%3Dw%5E%7BT%7Dx%5E%7B(i)%7D%2Bb%3Cbr%3E%0A%3Cbr%3E%0Ag%3D1%2Cz%5Cge%200%3Cbr%3E%0A%3Cbr%3E%0Ag%3D-1%2Cz%3C0" style="border:none;" />
         
@@ -72,13 +74,17 @@
         
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=max_%7B%5Cgamma%2Cw%2Cb%7D%5Cgamma%20%3Cbr%3E%0A%3Cbr%3E%0As.t.%20y%5E%7B(i)%7D(w%5E%7BT%7Dx%5E%7B(i)%2Bb%7D)%5Cge%20%5Cgamma%2Ci%3D1%2C...%2Cm%20%3Cbr%3E%0A%3Cbr%3E%0A%7C%7Cw%7C%7C%3D1%0A" style="border:none;" />
         
-        ||w||=1 constraint w.
+        ||w||=1 constraint w. It's a geometric margin.
         
-        Let's transfer is into a  Optimal planning problem.
+        Let's transfer it into a  function margin.
+
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=max_%7B%5Cgamma%2Cw%2Cb%7D%20%5Cfrac%7B%5Cgamma%20%7D%7B%7C%7Cw%7C%7C%7D%3Cbr%3E%0A%3Cbr%3E%0As.t.%20y%5E%7B(i)%7D(w%5E%7BT%7Dx%5E%7B(i)%2Bb%7D)%5Cge%20%5Cgamma%2Ci%3D1%2C...%2Cm%20%3Cbr%3E%0A%3Cbr%3E%0A%0A" style="border:none;" />
         
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=min_%7B%5Cgamma%2Cw%2Cb%7D%20%5Cfrac%7B1%7D%7B2%7D%7C%7Cw%7C%7C%3Cbr%3E%0A%3Cbr%3E%0As.t.%20y%5E%7B(i)%7D(w%5E%7BT%7Dx%5E%7B(i)%2Bb%7D)%5Cge%20%5Cgamma%2Ci%3D1%2C...%2Cm%20%3Cbr%3E%0A%3Cbr%3E%0A%0A" style="border:none;" />
         
-        It is a Optimal planning problem. First line is objective function. Second line and third line is constraint function.
+        It is a Optimal planning problem. First line is objective function. 
+        
+        Second line and third line is constraint function.
         
         
         
