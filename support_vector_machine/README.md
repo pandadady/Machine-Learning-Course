@@ -30,12 +30,18 @@
     
     (1) function margin and geometric margin.
     
-        Given a training sample set，(xi,yi), x repesents feature, y repesents class. i repesents the number i sample.
+        Given a training sample set，(xi,yi), x repesents feature, y repesents class -1 or 1. i repesents the number i sample.
+        
+        <img src="http://chart.googleapis.com/chart?cht=tx&chl=z%3Dw%5E%7BT%7Dx%5E%7B(i)%7D%2Bb%3Cbr%3E%0A%3Cbr%3E%0Ag%3D1%2Cz%5Cge%200%3Cbr%3E%0A%3Cbr%3E%0Ag%3D-1%2Cz%3C0" style="border:none;" />
         
         Function margin definition is shown as below.
         
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=%20%5Chat%7B%5Cgamma%7D%5E%7B(i)%7D%3Dy%5E%7B(i)%7D(w%5E%7BT%7Dx%5E%7B(i)%7D%2Bb)" style="border:none;" />
         
+        
+        
         Geometric margin definition is shown as below.
         
 <img src="http://images.cnblogs.com/cnblogs_com/jerrylead/201103/201103131131571364.png" height="309" width="360"/>
+
+
