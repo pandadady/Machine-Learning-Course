@@ -49,6 +49,17 @@ surface#Support Vector Machine
         B is the projection of A on the plane.if A is (xi，yi).B is show as below
 
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=x%3Dx%5E%7B(i)%7D-%5Cgamma%20%5E%7B(i)%7D%5Cfrac%7Bw%7D%7B%7C%7Cw%7C%7C%7D" style="border:none;" />
+
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=w%5E%7BT%7D(x%5E%7B(i)%7D-%5Cgamma%20%5E%7B(i)%7D%5Cfrac%7Bw%7D%7B%7C%7Cw%7C%7C%7D)%2Bb%3D0" style="border:none;" />
+
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=%5Cgamma%20%5E%7B(i)%7D%20%3D%20%5Cfrac%7Bw%5E%7BT%7Dx%5E%7B(i)%7D%2Bb%7D%7B%7C%7Cw%7C%7C%7D%3D(%5Cfrac%7Bw%7D%7B%7C%7Cw%7C%7C%7D)%5E%7BT%7Dx%5E%7B(i)%7D%2B%5Cfrac%7Bb%7D%7B%7C%7Cw%7C%7C%7D" style="border:none;" />
+
+        r is the distance from point to the plane.
+        
+        In other way.
+        
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=%5Cgamma%20%5E%7B(i)%7D%20%3Dy%5E%7B(i)%7D((%5Cfrac%7Bw%7D%7B%7C%7Cw%7C%7C%7D)%5E%7BT%7Dx%5E%7B(i)%7D%2B%5Cfrac%7Bb%7D%7B%7C%7Cw%7C%7C%7D)" style="border:none;" />
+
         
         
 
