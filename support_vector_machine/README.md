@@ -189,7 +189,7 @@
 
         Assume that.
         
-<img src="http://chart.googleapis.com/chart?cht=tx&chl=k_%7Bij%7D%3D%3Cx%5E%7B(i)%7D.x%5E%7B(j)%7D%3E%3Cbr%3E%0A%3Cbr%3E%0Av_%7Bj%7D%3D%5Csum_%7Bi%3D3%7D%5Em%20%5Calpha_%7Bi%7Dy%5E%7B(i)k_%7Bji%7D%7D%3Dz-b-y%5E%7B(1)%7D%5Calpha_%7B1%7D%5E%7B*%7Dk_%7B1i%7D-y%5E%7B(2)%7D%5Calpha_%7B2%7D%5E%7B*%7Dk_%7B2i%7D" style="border:none;" />
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=k_%7Bij%7D%3D%3Cx%5E%7B(i)%7D.x%5E%7B(j)%7D%3E%3Cbr%3E%0A%3Cbr%3E%0Av_%7Bj%7D%3D%5Csum_%7Bi%3D3%7D%5Em%20%5Calpha_%7Bi%7Dy%5E%7B(i)%7Dk_%7Bji%7D%3Dz-b-y%5E%7B(1)%7D%5Calpha_%7B1%7D%5E%7B*%7Dk_%7B1i%7D-y%5E%7B(2)%7D%5Calpha_%7B2%7D%5E%7B*%7Dk_%7B2i%7D" style="border:none;" />
         
         Add into W.
             
