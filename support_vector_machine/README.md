@@ -142,7 +142,7 @@
     
         Add into the lagrange formula.
     
-<img src="http://chart.googleapis.com/chart?cht=tx&chl=L(w%2C%5Calpha%2C%5Cbeta)%3D%5Cfrac%7B%7C%7Cw%7C%7C%5E%7B2%7D%7D%7B2%7D-%5Csum_%7Bi%3D1%7D%5Em%20%5Calpha_%7Bi%7D%5By%5E%7B(i)%7D(w%5E%7BT%7Dx%5E%7B(i)%2Bb%7D)-1%5D%0A%0A" style="border:none;" />
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=L(w%2C%5Calpha%2Cb)%3D%5Cfrac%7B%7C%7Cw%7C%7C%5E%7B2%7D%7D%7B2%7D-%5Csum_%7Bi%3D1%7D%5Em%20%5Calpha_%7Bi%7D%5By%5E%7B(i)%7D(w%5E%7BT%7Dx%5E%7B(i)%2Bb%7D)-1%5D%0A%0A" style="border:none;" />
         
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=d%5E%7B*%7D%3Dmax_%7B%5Calpha.%5Cbeta%3A%5Calpha%5Cge%200%7Dmin_%7Bw%7DL(w%2C%5Calpha%2C%5Cbeta)%0A" style="border:none;" />
 
