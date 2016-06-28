@@ -114,7 +114,13 @@
         
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=Primal%20Problem%3Dmin_%7Bw%7Df(w)%3Dmin_%7Bw%7D%5Ctheta_%7Bp%7D(w)%3Dmin_%7Bw%7D%20max_%7B%5Calpha.%5Cbeta%3A%5Calpha%5Cge%200%7D%20L(w%2C%5Calpha%2C%5Cbeta)" style="border:none;" />
 
-
+    (3) Duality problem
+    
+    Duality problem of primal problem is shown as below.
+    
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=%5Ctheta%20_%7BD%7D(%5Calpha%2C%5Cbeta)%20%3D%20min_%7Bw%7D%20L(w%2C%5Calpha%2C%5Cbeta)%0A%3Cbr%3E%0A%3Cbr%3E%0Ad%5E%7B*%7D%3Dmax_%7B%5Calpha.%5Cbeta%3A%5Calpha%5Cge%200%7Dmin_%7Bw%7DL(w%2C%5Calpha%2C%5Cbeta)%3D%5Ctheta%20_%7BD%7D(%5Calpha%2C%5Cbeta)" style="border:none;" />
+    
+    
         
         
         
