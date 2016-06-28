@@ -104,11 +104,11 @@
         
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=%5Ctheta%20_%7Bp%7D%3Dmax_%7Bx%5Calpha.%5Cbeta%3A%20%5Calpha%5Cge%200%20%7D%20L(w%2C%5Calpha%2C%5Cbeta)" style="border:none;" />
         
-        When w don't meet primal constraints,  
+        When w don't satisfy primal constraints,  
         
         it is possible to adjust alpha and beta to make theta get a max value which infinity. 
         
-        When w meet primal constraints,
+        When w satisfy primal constraints,
         
         theta is f(w).
         
@@ -116,9 +116,23 @@
 
     (3) Duality problem
     
-    Duality problem of primal problem is shown as below.
+        Duality problem of primal problem is shown as below.
     
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=%5Ctheta%20_%7BD%7D(%5Calpha%2C%5Cbeta)%20%3D%20min_%7Bw%7D%20L(w%2C%5Calpha%2C%5Cbeta)%0A%3Cbr%3E%0A%3Cbr%3E%0Ad%5E%7B*%7D%3Dmax_%7B%5Calpha.%5Cbeta%3A%5Calpha%5Cge%200%7Dmin_%7Bw%7DL(w%2C%5Calpha%2C%5Cbeta)%3D%5Ctheta%20_%7BD%7D(%5Calpha%2C%5Cbeta)" style="border:none;" />
+    
+        Generally. Max Min(X) <= Min Max(X) is correct in any other function.
+    
+        Add KKT conditions ,which is shown as below, into the problem in order to solve dual problem instead of primal problem.
+    
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=%5Cfrac%7B%5Cpart%20L(w%5E%7B*%7D%2C%5Calpha%5E%7B*%7D%2C%5Cbeta%5E%7B*%7D)%7D%0A%7Bw_%7Bi%7D%7D%3D0%2Ci%3D1%2C...%2Cn%3Cbr%3E%0A%5Cfrac%7B%5Cpart%20L(w%5E%7B*%7D%2C%5Calpha%5E%7B*%7D%2C%5Cbeta%5E%7B*%7D)%7D%7B%5Cbeta_%7Bi%7D%7D%3D0%2Ci%3D1%2C...%2Cl%3Cbr%3E%0A%5Calpha%5E%7B*%7D_%7Bi%7Dg_%7Bi%7D(w%5E%7B*%7D)%3D0%2Ci%3D1%2C...k%3Cbr%3E%0Ag_%7Bi%7D(w%5E%7B*%7D)%5Cle%200%2Ci%3D1%2C...k%3Cbr%3E%0A%5Calpha%5E%7B*%7D%5Cge%200%2Ci%3D1%2C...k%3Cbr%3E%0A%0A" style="border:none;" />
+
+        According KKT dual complementarity. The value of primal problem is the value of dual problem.
+    
+    
+    
+    
+    
+    
     
     
         
