@@ -146,8 +146,9 @@
         
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=d%5E%7B*%7D%3Dmax_%7B%5Calpha.%5Cbeta%3A%5Calpha%5Cge%200%7Dmin_%7Bw%7DL(w%2C%5Calpha%2C%5Cbeta)%0A" style="border:none;" />
 
-        First, caclulate the min value of L.
-        
+        First, caclulate the min value which is about w and b.
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=%5Cfrac%7B%5Cpart%20L(w%2C%5Calpha%2Cb)%7D%7B%5Cpart%20w%7D%3Dw-%5Csum_%7Bi%3D1%7D%5Em%5Calpha_%7Bi%7Dy%5E%7B(i)%7Dx%5E%7B(i)%7D%3D0%0A%3Cbr%3E%0A%5Cfrac%7B%5Cpart%20L(w%2C%5Calpha%2Cb)%7D%7B%5Cpart%20b%7D%3D%5Csum_%7Bi%3D1%7D%5Emalpha_%7Bi%7Dy%5E%7B(i)%7D%3D0%0A" style="border:none;" />
+                
         
     
     
