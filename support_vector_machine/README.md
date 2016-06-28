@@ -104,6 +104,17 @@
         
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=%5Ctheta%20_%7Bp%7D%3Dmax_%7Bx%5Calpha.%5Cbeta%3A%20%5Calpha%5Cge%200%20%7D%20L(w%2C%5Calpha%2C%5Cbeta)" style="border:none;" />
         
+        When w don't meet primal constraints,  
+        
+        it is possible to adjust alpha and beta to make theta get a max value which infinity. 
+        
+        When w meet primal constraints,
+        
+        theta is f(w).
+        
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=Primal%20Problem%3Dmin_%7Bw%7Df(w)%3Dmin_%7Bw%7D%5Ctheta_%7Bp%7D(w)%3Dmin_%7Bw%7D%20max_%7B%5Calpha.%5Cbeta%3A%5Calpha%5Cge%200%7D%20L(w%2C%5Calpha%2C%5Cbeta)" style="border:none;" />
+
+
         
         
         
