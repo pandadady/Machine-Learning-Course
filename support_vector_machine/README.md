@@ -157,7 +157,21 @@
         
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=max_%7B%5Calpha%7D%20W(%5Calpha)%3D%5Csum_%7Bi%3D1%7D%5Em%20%5Calpha_%7Bi%7D-%5Cfrac%7B1%7D%7B2%7D%5Csum_%7Bi%3D1%7D%5Em%20y%5E%7B(i)%7D%20y%5E%7B(j)%7D%5Calpha_%7Bi%7D%5Calpha_%7Bj%7D(x%5E%7B(i)%7D)%5E%7BT%7Dx%5E%7B(j)%7D%3Cbr%3E%0As.t.%5Calpha_%7Bi%7D%5Cge%200%2Ci%3D1%2C...%2Cm%3Cbr%3E%0A%5Csum_%7Bi%3D1%7D%5Em%20%5Calpha_%7Bi%7Dy%5E%7B(i)%7D%3D0%0A%0A%0A" style="border:none;" />
         
-                
+        before cacluation , Let's learn coordinate ascent method
+        
+        To solve this problem.
+        
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=max_%7B%5Calpha%7DW(%5Calpha_%7B1%7D%2C%5Calpha_%7B2%7D%2C...%2C%5Calpha_%7Bm%7D)" style="border:none;" />
+        
+        Except the Newton descent method and the gradient descent method, there is coordinate ascent method.
+        
+        All alpha except alpha-i are treated as a fixed value, W is a function of alpha-i.Directly optimize the alphai
+        
+        We would calculate optimiztion from i to m, or we would change the order to accelerate the convergence of W.
+        
+        (5)    
+        
+        
         
     
     
