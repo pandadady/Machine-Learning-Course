@@ -131,6 +131,18 @@
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=%5Calpha%5E%7B*%7D_%7Bi%7Dg_%7Bi%7D(w%5E%7B*%7D)%3D0%2Ci%3D1%2C...k%3Cbr%3E%0Ag_%7Bi%7D(w%5E%7B*%7D)%5Cle%200%2Ci%3D1%2C...k%3Cbr%3E%0A%5Calpha%5E%7B*%7D%5Cge%200%2Ci%3D1%2C...k%3Cbr%3E%0A%0A%0A" style="border:none;" />
 
         According KKT dual complementarity(the third line). The value of primal problem is the value of dual problem.
+        
+    (4) Optimum solution
+    
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=min_%7B%5Cgamma%2Cw%2Cb%7D%20%5Cfrac%7B1%7D%7B2%7D%7C%7Cw%7C%7C%5E%7B2%7D%3Cbr%3E%0A%3Cbr%3E%0As.t.%20y%5E%7B(i)%7D(w%5E%7BT%7Dx%5E%7B(i)%2Bb%7D)%5Cge%201%2Ci%3D1%2C...%2Cm%20%3Cbr%3E%0A%3Cbr%3E%0A%0A" style="border:none;" />
+
+    Change constraints.
+    
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=g_%7Bi%7D(w)%3D-y%5E%7B(i)%7D(w%5E%7BT%7Dx%5E%7B(i)%2Bb%7D)%2B1%5Cle%200%0A%0A" style="border:none;" />
+    
+    Add into the lagrange formula.
+    
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=L(w%2C%5Calpha%2C%5Cbeta)%3D%5Cfrac%7B%7C%7Cw%7C%7C%5E%7B2%7D%7D%7B2%7D-%5Csum_%7Bi%3D1%7D%5Em%20%5Calpha_%7Bi%7D%5By%5E%7B(i)%7D(w%5E%7BT%7Dx%5E%7B(i)%2Bb%7D)-1%5D%0A%0A" style="border:none;" />
     
     
     
