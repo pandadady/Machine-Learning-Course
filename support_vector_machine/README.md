@@ -179,7 +179,7 @@
             
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=%5Csum_%7Bi%3D1%7D%5Em%20%5Calpha_%7Bi%7Dy%5E%7B(i)%7D%3D0%0A%3D%3E%20%5Calpha_%7B1%7Dy%5E%7B(1)%7D%2B%5Calpha_%7B2%7Dy%5E%7B(2)%7D%3D-%5Csum_%7Bi%3D1%7D%5Em%20%5Calpha_%7Bi%7Dy%5E%7B(i)%7D" style="border:none;" />
 
-<img src="http://chart.googleapis.com/chart?cht=tx&chl=w%3D%5Csum_%7Bi%3D1%7D%5Em%20%5Calpha_%7Bi%7Dy%5E%7B(i)%7Dx%5E%7B(i)%7D%0A%3D%3E%20z%3Dw%5E%7BT%7Dx%2Bb%3D%5Csum_%7Bi%3D1%7D%5Em%20%5Calpha_%7Bi%7Dy%5E%7B(i)%7D%3Cx%5E%7B(i)%7D.x%3E" style="border:none;" />
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=w%3D%5Csum_%7Bi%3D1%7D%5Em%20%5Calpha_%7Bi%7Dy%5E%7B(i)%7Dx%5E%7B(i)%7D%0A%3D%3E%20z%3Dw%5E%7BT%7Dx%2Bb%3D%5Csum_%7Bi%3D1%7D%5Em%20%5Calpha_%7Bi%7Dy%5E%7B(i)%7D%3Cx%5E%7B(i)%7D.x%3E%2Bb" style="border:none;" />
             
         
         
