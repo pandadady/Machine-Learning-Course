@@ -100,7 +100,9 @@
         
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=L(w%2C%5Calpha%20%2C%20%5Cbeta%20)%3D%20f(w)%2B%5Csum_%7Bi%3D1%7D%5Ek%5Calpha_%7Bi%7Dg_%7Bi%7D(w)%2B%5Csum_%7Bi%3D1%7D%5El%5Cbeta_%7Bi%7Dh_%7Bi%7D(w)%0A" style="border:none;" />
         
+        Define the following function.
         
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=%5Ctheta%20_%7Bp%7D%3Dmax_%7Bx%5Calpha.%5Cbeta%3A%20%5Calpha%5Cge%200%20%7D%20L(w%2C%5Calpha%2C%5Cbeta)" style="border:none;" />
         
         
         
