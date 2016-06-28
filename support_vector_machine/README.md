@@ -28,7 +28,7 @@
 ###2.Derivation
     The derivation of support vector machine algorithm is difficult for me at first.
     
-    (1) function margin and geometric margin.
+    (1) Constrained extremum problem of the two programming.
     
         Given a training sample set，(xi,yi), x repesents feature, y repesents class -1 or 1. 
         
@@ -84,9 +84,13 @@
         
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=min_%7B%5Cgamma%2Cw%2Cb%7D%20%5Cfrac%7B1%7D%7B2%7D%7C%7Cw%7C%7C%5E%7B2%7D%3Cbr%3E%0A%3Cbr%3E%0As.t.%20y%5E%7B(i)%7D(w%5E%7BT%7Dx%5E%7B(i)%2Bb%7D)%5Cge%201%2Ci%3D1%2C...%2Cm%20%3Cbr%3E%0A%3Cbr%3E%0A%0A" style="border:none;" />
 
-        It is a Optimal planning problem. First line is objective function. 
+        It is a constrained extremum problem of the two programming. First line is objective function which is convex function.
         
         Second line and third line is constraint function.
+        
+    (2) KKT condition 
+    
+        According to the KKT condition, we can get 
         
         
         
