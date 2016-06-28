@@ -169,8 +169,11 @@
         
         We would calculate optimiztion from i to m, or we would change the order to accelerate the convergence of W.
         
-        (5)    
+        (5) SMO 
         
+            This section is from <<Sequential Minimal Optimization A Fast Algorithm for Training Support Vector Machines>>.
+            
+            
         
         
     
