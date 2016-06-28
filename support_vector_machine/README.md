@@ -88,9 +88,11 @@
         
         Second line and third line is constraint function.
         
-    (2) KKT condition 
+    (2) Lagrange multiplier method
     
-        According to the KKT condition, we can get 
+        Generalized inequality constrained extremum problem：
+        
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=min_%7Bw%7D%20f(w)%3Cbr%3E%0A%3Cbr%3E%0A%20%20%20%20s.t.%20g_%7Bi%7D(w)%5Cle%200%2Ci%3D1%2C...%2Ck%20%3Cbr%3E%0A%3Cbr%3E%0A%20%20%20%20h_%7Bi%7D(w)%3D0%2C%20i%3D1%2C...l%0A%0A" style="border:none;" />
         
         
         
