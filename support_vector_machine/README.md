@@ -26,7 +26,10 @@
     The goal is to maximize the distance between the support vectors and the separation plane.
     
 ###2.Derivation
-    The derivation of support vector machine algorithm is difficult for me at first.
+
+    The derivation of support vector machine algorithm is a bit long.
+    
+    It took me two days after work time to type these formula.
     
     (1) Constrained extremum problem of the two programming.
     
@@ -260,4 +263,5 @@
         The derivation process ends.
         
 ###3.Algorithm thinking
+        
         
