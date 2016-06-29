@@ -194,6 +194,9 @@
         Add into W.
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=W%3D%5Calpha_%7B1%7D%2B%5Calpha_%7B2%7D%2BConstant1-%5Cfrac%7B1%7D%7B2%7D%5Calpha_%7B1%7D%5E%7B2%7Dk_%7B11%7D-%5Calpha_%7B1%7D%5Calpha_%7B2%7Dk_%7B12%7Dy%5E%7B(1)%7Dy%5E%7B(2)%7D-%5Calpha_%7B1%7Dy%5E%7B(1)%7DV_%7B1%7D-%5Cfrac%7B1%7D%7B2%7D%5Calpha_%7B2%7D%5E%7B2%7Dk_%7B22%7D-%5Calpha_%7B2%7Dy%5E%7B(2)%7DV_%7B2%7D" style="border:none;" />
 
-        Assume that.
+        we can get this.
+        
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=%5Calpha_%7B1%7Dy%5E%7B(1)%7D%2B%5Calpha_%7B2%7Dy%5E%7B(2)%7D%3D-%5Csum_%7Bi%3D3%7D%5Em%20%5Calpha_%7Bi%7Dy%5E%7B(i)%7D%3Cbr%3E%0A%3D%3E%5Calpha_%7B1%7D%2B%5Calpha_%7B2%7Dy%5E%7B(2)%7Dy%5E%7B(1)%7D%3D-y%5E%7B(1)%7D%5Csum_%7Bi%3D3%7D%5Em%20%5Calpha_%7Bi%7Dy%5E%7B(i)%7D%3Cbr%3E%0ASet%3A%20S%3Dy%5E%7B(2)%7Dy%5E%7B(1)%7D%2CA%3D-y%5E%7B(1)%7D%5Csum_%7Bi%3D3%7D%5Em%20%5Calpha_%7Bi%7Dy%5E%7B(i)%7D%3Cbr%3E%0A%3D%3Ealpha_%7B1%7D%2B%5Calpha_%7B2%7DS%3DA" style="border:none;" />
+        
         
         
