@@ -210,3 +210,12 @@
         
 
 
+% MathType!MTEF!2!1!+-
+% feaagKart1ev2aaatCvAUfeBSn0BKvguHDwzZbqefSSZmxoarmWu51
+% MyVXgatCvAUfeBSjuyZL2yd9gzLbvyNv2CaeHbd9wDYLwzYbItLDha
+% ryavP1wzZbItLDhis9wBH5garqqtubsr4rNCHbGeaGqiVu0Je9sqqr
+% pepC0xbbL8F4rqqrFfpeea0xe9Lq-Jc9vqaqpepm0xbba9pwe9Q8fs
+% 0-yqaqpepae9pg0FirpepeKkFr0xfr-xfr-xb9adbaqaaeGaciGaai
+% aabeqaamaaeaqbaeaakeaadaWcaaqaaiabes7aKjaadMhaaeaacqaH
+% 0oazcaWG4baaaaaa!4477!
+\[\frac{{\delta y}}{{\delta x}}\]
