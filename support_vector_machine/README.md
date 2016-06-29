@@ -194,4 +194,6 @@
         Add into W.
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=W%3D%5Calpha_%7B1%7D%2B%5Calpha_%7B2%7D%2BConstant1-%5Cfrac%7B1%7D%7B2%7D%5Calpha_%7B1%7D%5E%7B2%7Dk_%7B11%7D-%5Calpha_%7B1%7D%5Calpha_%7B2%7Dk_%7B12%7Dy%5E%7B(1)%7Dy%5E%7B(2)%7D-%5Calpha_%7B1%7Dy%5E%7B(1)%7DV_%7B1%7D-%5Cfrac%7B1%7D%7B2%7D%5Calpha_%7B2%7D%5E%7B2%7Dk_%7B22%7D-%5Calpha_%7B2%7Dy%5E%7B(2)%7DV_%7B2%7D" style="border:none;" />
 
-<img src="http://chart.googleapis.com/chart?cht=tx&chl=e%3Dmc" style="border:none;" />
+        Assume that.
+        
+        
