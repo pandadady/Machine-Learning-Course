@@ -194,28 +194,4 @@
         Add into W.
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=W%3D%5Calpha_%7B1%7D%2B%5Calpha_%7B2%7D%2BConstant1-%5Cfrac%7B1%7D%7B2%7D%5Calpha_%7B1%7D%5E%7B2%7Dk_%7B11%7D-%5Calpha_%7B1%7D%5Calpha_%7B2%7Dk_%7B12%7Dy%5E%7B(1)%7Dy%5E%7B(2)%7D-%5Calpha_%7B1%7Dy%5E%7B(1)%7DV_%7B1%7D-%5Cfrac%7B1%7D%7B2%7D%5Calpha_%7B2%7D%5E%7B2%7Dk_%7B22%7D-%5Calpha_%7B2%7Dy%5E%7B(2)%7DV_%7B2%7D" style="border:none;" />
 
-\[{\rm{E = mc}}\frac{{{\rm{n!}}}}{{{\rm{r!}}\left( {{\rm{n - r}}} \right){\rm{!}}}}\]        
-        
-    
-    
-    
-    
-    
-    
-    
-    
-        
-        
-        
-        
-
-
-% MathType!MTEF!2!1!+-
-% feaagKart1ev2aaatCvAUfeBSn0BKvguHDwzZbqefSSZmxoarmWu51
-% MyVXgatCvAUfeBSjuyZL2yd9gzLbvyNv2CaeHbd9wDYLwzYbItLDha
-% ryavP1wzZbItLDhis9wBH5garqqtubsr4rNCHbGeaGqiVu0Je9sqqr
-% pepC0xbbL8F4rqqrFfpeea0xe9Lq-Jc9vqaqpepm0xbba9pwe9Q8fs
-% 0-yqaqpepae9pg0FirpepeKkFr0xfr-xfr-xb9adbaqaaeGaciGaai
-% aabeqaamaaeaqbaeaakeaadaWcaaqaaiabes7aKjaadMhaaeaacqaH
-% 0oazcaWG4baaaaaa!4477!
-\[\frac{{\delta y}}{{\delta x}}\]
+<img src="http://www.forkosh.com/mathtex.cgi? \Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}">
