@@ -231,3 +231,6 @@
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=%5Calpha_%7B2%7D%5E%7Bnew%7D%20%3D%20H%20%2C%20if%20%5Calpha_%7B2%7D%5Cge%20H%3Cbr%3E%0A%5Calpha_%7B2%7D%5E%7Bnew%7D%20%3D%20%5Calpha_%7B2%7D%20%2C%20if%20L%3C%5Calpha_%7B2%7D%3C%20H%3Cbr%3E%0A%5Calpha_%7B2%7D%5E%7Bnew%7D%20%3D%20L%20%2C%20if%20%5Calpha_%7B2%7D%5Cle%20%20L%3Cbr%3E%0A" style="border:none;" />
         
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=%5Calpha_%7B1%7D%5E%7Bnew%7D%2BS%5Calpha_%7B2%7D%5E%7Bnew%7D%3D%5Calpha_%7B1%7D%5E%7B*%7D%2BS%5Calpha_%7B2%7D%5E%7B*%7D%3Cbr%3E%0A%3D%3E%5Calpha_%7B1%7D%5E%7Bnew%7D%3D%5Calpha_%7B1%7D%5E%7B*%7D%2BS(%5Calpha_%7B2%7D%5E%7B*%7D-%5Calpha_%7B2%7D%5E%7Bnew%7D)%0A" style="border:none;" />
+        Supplement of calculation of H and L.
+        
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=0%5Cge%20%5Calpha%20%5Cle%20C%3Cbr%3E%0Aif%20y%5E%7B(1)%7D%20%5Cne%20y%5E%7B(2)%7D%20%3A%20%5Calpha_%7B1%7D-%5Calpha_%7B2%7D%3DK%3Cbr%3E%0AL%3Dmax(0%2C%5Calpha_%7B2%7D-%5Calpha_%7B1%7D)%3Cbr%3E%0AH%3Dmin(C%2CC%2B%5Calpha_%7B2%7D-%5Calpha_%7B1%7D)%3Cbr%3E%0Aif%20y%5E%7B(1)%7D%20%3D%20y%5E%7B(2)%7D%20%3A%20%5Calpha_%7B1%7D%2B%5Calpha_%7B2%7D%3DK%3Cbr%3E%0AL%3Dmax(0%2C%5Calpha_%7B2%7D%2B%5Calpha_%7B1%7D-C)%3Cbr%3E%0AH%3Dmin(C%2C%5Calpha_%7B2%7D%2B%5Calpha_%7B1%7D)%3Cbr%3E" style="border:none;" />
