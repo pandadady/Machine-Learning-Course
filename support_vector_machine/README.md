@@ -210,6 +210,8 @@
        
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=%3D1-S%2BASk_%7B11%7D-K_%7B11%7D%5Calpha_%7B2%7D-ASk_%7B12%7D%2B2k_%7B12%7D%5Calpha_%7B2%7D%2By%5E%7B(2)%7Dv_%7B1%7D-%5Calpha_%7B2%7Dk_%7B22%7D-y%5E%7B(2)%7Dv_%7B2%7D%0A" style="border:none;" />
 
-<img src="http://chart.googleapis.com/chart?cht=tx&chl=ASk_%7B11%7D-AS%5Ck_%7B12%7D-%5Calpha_%7B2%7Dk_%7B11%7D-%5Calpha_%7B2%7Dk_%7B22%7D%2B2k_%7B12%7D%5Calpha_%7B2%7D%2By%5E%7B(2)%7D(v_%7B1%7D-v_%7B2%7D)%2By%5E%7B(2)%7D(y%5E%7B(2)%7D-y%5E%7B(1)%7D)%3D0%0A" style="border:none;" />
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=%3DASk_%7B11%7D-ASk_%7B12%7D-%5Calpha_%7B2%7Dk_%7B11%7D-%5Calpha_%7B2%7Dk_%7B22%7D%2B2k_%7B12%7D%5Calpha_%7B2%7D%2By%5E%7B(2)%7D(v_%7B1%7D-v_%7B2%7D)%2By%5E%7B(2)%7D(y%5E%7B(2)%7D-y%5E%7B(1)%7D)%3D0%0A" style="border:none;" />
+
+
         
         
