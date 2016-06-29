@@ -216,7 +216,9 @@
 
         Add v into W.
         
-<img src="http://chart.googleapis.com/chart?cht=tx&chl=%5Calpha_%7B2%7Dk_%7B11%7D%2B%5Calpha_%7B2%7Dk_%7B22%7D-2k_%7B12%7D%5Calpha_%7B2%7D%3DASk_%7B11%7D-ASk_%7B12%7D%2By%5E%7B(2)%7D(Z_%7B1%7D-b-y%5E%7B1%7D%5Calpha_%7B1%7D%5E%7B*%7Dk_%7B11%7D-y%5E%7B(2)%7D%5Calpha_%7B2%7D%5E%7B*%7Dk_%7B21%7D-Z_%7B2%7D%2Bb%2By%5E%7B1%7D%5Calpha_%7B1%7D%5E%7B*%7Dk_%7B12%7D-y%5E%7B(2)%7D%5Calpha_%7B2%7D%5E%7B*%7Dk_%7B22%7D)%2By%5E%7B(2)%7D(y%5E%7B(2)%7D-y%5E%7B(1)%7D)%3D0%0A%0A" style="border:none;" />
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=%5Calpha_%7B2%7Dk_%7B11%7D%2B%5Calpha_%7B2%7Dk_%7B22%7D-2k_%7B12%7D%5Calpha_%7B2%7D%3D%0A%0A" style="border:none;" />
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=ASk_%7B11%7D-ASk_%7B12%7D%2By%5E%7B(2)%7D(Z_%7B1%7D-b-y%5E%7B1%7D%5Calpha_%7B1%7D%5E%7B*%7Dk_%7B11%7D-y%5E%7B(2)%7D%5Calpha_%7B2%7D%5E%7B*%7Dk_%7B21%7D-Z_%7B2%7D%2Bb%2By%5E%7B1%7D%5Calpha_%7B1%7D%5E%7B*%7Dk_%7B12%7D" style="border:none;" />
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=-y%5E%7B(2)%7D%5Calpha_%7B2%7D%5E%7B*%7Dk_%7B22%7D)%2By%5E%7B(2)%7D(y%5E%7B(2)%7D-y%5E%7B(1)%7D)%3D0" style="border:none;" />
 
 
 
