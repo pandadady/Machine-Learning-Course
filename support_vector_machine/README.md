@@ -244,6 +244,6 @@
 
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=%3D%3Ew_%7B*%7D%3D%5Calpha_%7B1%7D%5E%7B*%7Dy%5E%7B(1)%7Dx%5E%7B(1)%7D%2B%5Calpha_%7B2%7D%5E%7B*%7Dy%5E%7B(2)%7Dx%5E%7B(2)%7D%2B%5Csum_%7Bi%3D3%7D%5Em%20%5Calpha_%7Bi%7D%7Dy%5E%7B(i)%7Dx%5E%7B(i)%7D%0A" style="border:none;" />
 
-<img src="http://chart.googleapis.com/chart?cht=tx&chl=%3D%3Ew_%7Bnew%7D%3D%5Calpha_%7B1%7D%5E%7Bnew%7Dy%5E%7B(1)%7Dx%5E%7B(1)%7D%2B%5Calpha_%7B2%7D%5E%7Bnew%7Dy%5E%7B(2)%7Dx%5E%7B(2)%7D%2B%5Csum_%7Bi%3D3%7D%5Em%20%5Calpha_%7Bi%7D%7Dy%5E%7B(i)%7Dx%5E%7B(i)%7D%0A" style="border:none;" />
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=%3D%3Ew%5E%7B*%7D%3D%5Calpha_%7B1%7D%5E%7B*%7Dy%5E%7B(1)%7Dx%5E%7B(1)%7D%2B%5Calpha_%7B2%7D%5E%7B*%7Dy%5E%7B(2)%7Dx%5E%7B(2)%7D%2B%5Csum_%7Bi%3D3%7D%5Em%20%5Calpha_%7Bi%7D%7Dy%5E%7B(i)%7Dx%5E%7B(i)%7D%0A" style="border:none;" />
 
-
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=%3D%3Ew%5E%7Bnew%7D%3D%5Calpha_%7B1%7D%5E%7Bnew%7Dy%5E%7B(1)%7Dx%5E%7B(1)%7D%2B%5Calpha_%7B2%7D%5E%7Bnew%7Dy%5E%7B(2)%7Dx%5E%7B(2)%7D%2B%5Csum_%7Bi%3D3%7D%5Em%20%5Calpha_%7Bi%7D%7Dy%5E%7B(i)%7Dx%5E%7B(i)%7D" style="border:none;" />
