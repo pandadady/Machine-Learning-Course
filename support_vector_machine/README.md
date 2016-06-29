@@ -229,6 +229,5 @@
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=Set%3A%5Ceta%20%3D%20k_%7B11%7D%2Bk_%7B22%7D-2k_%7B12%7D%3Cbr%3E%0A%5Calpha_%7B2%7D%3D%5Calpha_%7B2%7D%5E%7B*%7D%2B%5Cfrac%7By%5E%7B(2)%7D(Z_%7B1%7D-Z_%7B2%7D%2By%5E%7B(2)%7D-y%5E%7B(1)%7D)%7D%7B%5Ceta%7D%0A" style="border:none;" />
 
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=%5Calpha_%7B2%7D%5E%7Bnew%7D%20%3D%20H%20%2C%20if%20%5Calpha_%7B2%7D%5Cge%20H%3Cbr%3E%0A%5Calpha_%7B2%7D%5E%7Bnew%7D%20%3D%20%5Calpha_%7B2%7D%20%2C%20if%20L%3C%5Calpha_%7B2%7D%3C%20H%3Cbr%3E%0A%5Calpha_%7B2%7D%5E%7Bnew%7D%20%3D%20L%20%2C%20if%20%5Calpha_%7B2%7D%5Cle%20%20L%3Cbr%3E%0A" style="border:none;" />
-
         
-        
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=%5Calpha_%7B1%7D%5E%7Bnew%7D%2BS%5Calpha_%7B2%7D%5E%7Bnew%7D%3D%5Calpha_%7B1%7D%5E%7B*%7D%2BS%5Calpha_%7B2%7D%5E%7B*%7D%3Cbr%3E%0A%3D%3E%5Calpha_%7B1%7D%5E%7Bnew%7D%3D%5Calpha_%7B1%7D%5E%7B*%7D%2BS(%5Calpha_%7B2%7D%5E%7B*%7D-%5Calpha_%7B2%7D%5E%7Bnew%7D)%0A" style="border:none;" />
