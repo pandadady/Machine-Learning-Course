@@ -203,7 +203,10 @@
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=Set%3A%20S%3Dy%5E%7B(2)%7Dy%5E%7B(1)%7D%2CA%3D-y%5E%7B(1)%7D%5Csum_%7Bi%3D3%7D%5Em%20%5Calpha_%7Bi%7Dy%5E%7B(i)%7D%3Cbr%3E%0A%3D%3E%5Calpha_%7B1%7D%2B%5Calpha_%7B2%7DS%3DA" style="border:none;" />
 
        Add in to W.
-<img src="http://chart.googleapis.com/chart?cht=tx&chl=W%3DA-S%5Calpha_%7B2%7D%2B%5Calpha_%7B2%7D-%5Cfrac%7B1%7D%7B2%7D(A-S%5Calpha_%7B2%7D)%5E%7B2%7Dk_%7B11%7D-Sk_%7B12%7D(A-S%5Calpha_%7B2%7D)%5Calpha_%7B2%7D-(A-S%5Calpha_%7B2%7D)y%5E%7B(1)%7Dv_%7B1%7D-%5Cfrac%7B1%7D%7B2%7D%5Calpha_%7B2%7D%5E%7B2%7Dk_%7B22%7D-y%5E%7B(2)%7D%5Calpha_%7B2%7Dv_%7B2%7D" style="border:none;" />
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=W%3DA-S%5Calpha_%7B2%7D%2B%5Calpha_%7B2%7D-%5Cfrac%7B1%7D%7B2%7D(A-S%5Calpha_%7B2%7D)%5E%7B2%7Dk_%7B11%7D-Sk_%7B12%7D(A-S%5Calpha_%7B2%7D)%5Calpha_%7B2%7D-(A-S%5Calpha_%7B2%7D)y%5E%7B(1)%7Dv_%7B1%7D-%5Cfrac%7B1%7D%7B2%7D%5Calpha_%7B2%7D%5E%7B2%7Dk_%7B22%7D-y%5E%7B(2)%7D%5Calpha_%7B2%7Dv_%7B2%7D%2BConstant1" style="border:none;" />
+    
+        Calculate derivative and find the alpha2 which make derivative zero.
+
        
         
         
