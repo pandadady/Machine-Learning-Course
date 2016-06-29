@@ -237,3 +237,13 @@
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=0%20%5Cle%20%5Calpha%20%5Cle%20%20C%3Cbr%3E%0Aif%20y%5E%7B(1)%7D%20%5Cne%20y%5E%7B(2)%7D%20%3A%20%5Calpha_%7B1%7D-%5Calpha_%7B2%7D%3DK%3Cbr%3E%0AL%3Dmax(0%2C%5Calpha_%7B2%7D-%5Calpha_%7B1%7D)%3Cbr%3E%0AH%3Dmin(C%2CC%2B%5Calpha_%7B2%7D-%5Calpha_%7B1%7D)%3Cbr%3E" style="border:none;" />
 
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=if%20y%5E%7B(1)%7D%20%3D%20y%5E%7B(2)%7D%20%3A%20%5Calpha_%7B1%7D%2B%5Calpha_%7B2%7D%3DK%3Cbr%3E%0AL%3Dmax(0%2C%5Calpha_%7B2%7D%2B%5Calpha_%7B1%7D-C)%3Cbr%3E%0AH%3Dmin(C%2C%5Calpha_%7B2%7D%2B%5Calpha_%7B1%7D)%3Cbr%3E" style="border:none;" />
+
+        After get alpha, begin to get w and b.
+        
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=w%3D%5Csum_%7Bi%3D1%7D%5Em%20%5Calpha_%7Bi%7Dy%5E%7B(i)%7Dx%5E%7B(i)%7D%3D%3Ew%3D%5Calpha_%7B1%7D%7Dy%5E%7B(1)%7Dx%5E%7B(1)%7D%2B%5Calpha_%7B2%7D%7Dy%5E%7B(2)%7Dx%5E%7B(2)%7D%2B%5Csum_%7Bi%3D3%7D%5Em%20%5Calpha_%7Bi%7D%7Dy%5E%7B(i)%7Dx%5E%7B(i)%7D" style="border:none;" />
+
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=%3D%3Ew_%7B*%7D%3D%5Calpha_%7B1%7D%5E%7B*%7Dy%5E%7B(1)%7Dx%5E%7B(1)%7D%2B%5Calpha_%7B2%7D%5E%7B*%7Dy%5E%7B(2)%7Dx%5E%7B(2)%7D%2B%5Csum_%7Bi%3D3%7D%5Em%20%5Calpha_%7Bi%7D%7Dy%5E%7B(i)%7Dx%5E%7B(i)%7D%0A" style="border:none;" />
+
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=%3D%3Ew_%7Bnew%7D%3D%5Calpha_%7B1%7D%5E%7Bnew%7Dy%5E%7B(1)%7Dx%5E%7B(1)%7D%2B%5Calpha_%7B2%7D%5E%7Bnew%7Dy%5E%7B(2)%7Dx%5E%7B(2)%7D%2B%5Csum_%7Bi%3D3%7D%5Em%20%5Calpha_%7Bi%7D%7Dy%5E%7B(i)%7Dx%5E%7B(i)%7D%0A" style="border:none;" />
+
+
