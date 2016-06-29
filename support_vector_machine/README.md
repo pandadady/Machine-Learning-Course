@@ -185,6 +185,7 @@
         
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=W%3D%5Calpha_%7B1%7D%2B%5Calpha_%7B2%7D%2BConstant1-%0A%5Cfrac%7B1%7D%7B2%7D(y%5E%7B(1)2%7D%5Calpha_%7B1%7D%5E%7B2%7D%3Cx%5E%7B(1)%7D.x%5E%7B(1)%7D%3E%2By%5E%7B(1)%7Dy%5E%7B(2)%7D%5Calpha_%7B1%7D%5Calpha_%7B2%7D%3Cx%5E%7B(1)%7D.x%5E%7B(2)%7D%3E%2B" style="border:none;" />
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=%5Calpha_%7B1%7Dy%5E%7B(1)%7D%5Csum_%7Bi%3D3%7D%5Em%20%5Calpha_%7Bi%7Dy%5E%7B(i)%7D%3Cx%5E%7B(i)%7D.x%5E%7B(1)%7D%3E%2By%5E%7B(2)%7Dy%5E%7B(1)%7D%5Calpha_%7B2%7D%5Calpha_%7B1%7D%3Cx%5E%7B(2)%7D.x%5E%7B(1)%7D%3E%2B%0A" style="border:none;" />
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=y%5E%7B(2)2%7D%5Calpha_%7B2%7D%5E%7B2%7D%3Cx%5E%7B(2)%7D.x%5E%7B(2)%7D%3E%2B%5Calpha_%7B2%7Dy%5E%7B(2)%7D%5Csum_%7Bi%3D3%7D%5Em%20%5Calpha_%7Bi%7Dy%5E%7B(i)%7D%3Cx%5E%7B(i)%7D.x%5E%7B(2)%7D%3E)%0A" style="border:none;" />
 
         Assume that.
         
