@@ -254,15 +254,12 @@
 
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=%3D%3Ew%5E%7Bnew%7Dx%5E%7B(1)%7D%3Dw%5E%7B*%7Dx%5E%7B(1)%7D%2B(%5Calpha_%7B1%7D%5E%7Bnew%7D-%5Calpha_%7B1%7D%5E%7B*%7D)y%5E%7B(1)%7Dx%5E%7B(1)%7Dx%5E%7B(1)%7D%2B(%5Calpha_%7B2%7D%5E%7Bnew%7D-%5Calpha_%7B2%7D%5E%7B*%7D)y%5E%7B(2)%7Dx%5E%7B(2)%7Dx%5E%7B(1)%7D" style="border:none;" />
 
-<img src="http://chart.googleapis.com/chart?cht=tx&chl=%3D%3EZ%5E%7B1%7D-b%5E%7Bnew%7D%3Dy%5E%7B1%7D-b%5E%7B*%7D%2B(%5Calpha_%7B1%7D%5E%7Bnew%7D-%5Calpha_%7B1%7D%5E%7B*%7D)y%5E%7B(1)%7Dx%5E%7B(1)%7Dx%5E%7B(1)%7D%2B(%5Calpha_%7B2%7D%5E%7Bnew%7D-%5Calpha_%7B2%7D%5E%7B*%7D)y%5E%7B(2)%7Dx%5E%7B(2)%7Dx%5E%7B(1)%7D" style="border:none;" />
-
-<img src="http://chart.googleapis.com/chart?cht=tx&chl=%3D%3Eb%5E%7Bnew%7D%3DZ%5E%7B1%7D-y%5E%7B1%7D%2Bb%5E%7B*%7D-(%5Calpha_%7B1%7D%5E%7Bnew%7D-%5Calpha_%7B1%7D%5E%7B*%7D)y%5E%7B(1)%7Dx%5E%7B(1)%7Dx%5E%7B(1)%7D-(%5Calpha_%7B2%7D%5E%7Bnew%7D-%5Calpha_%7B2%7D%5E%7B*%7D)y%5E%7B(2)%7Dx%5E%7B(2)%7Dx%5E%7B(1)%7D" style="border:none;" />
-
-<img src="http://chart.googleapis.com/chart?cht=tx&chl=%3D%3Eb%5E%7Bnew%7D%3DE%5E%7B1%7D%2Bb%5E%7B*%7D-(%5Calpha_%7B1%7D%5E%7Bnew%7D-%5Calpha_%7B1%7D%5E%7B*%7D)y%5E%7B(1)%7Dx%5E%7B(1)%7Dx%5E%7B(1)%7D-(%5Calpha_%7B2%7D%5E%7Bnew%7D-%5Calpha_%7B2%7D%5E%7B*%7D)y%5E%7B(2)%7Dx%5E%7B(2)%7Dx%5E%7B(1)%7D" style="border:none;" />
 
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=%3D%3Eb%5E%7B1%7D%3DE%5E%7B1%7D%2Bb%5E%7B*%7D-(%5Calpha_%7B1%7D%5E%7Bnew%7D-%5Calpha_%7B1%7D%5E%7B*%7D)y%5E%7B(1)%7Dx%5E%7B(1)%7Dx%5E%7B(1)%7D-(%5Calpha_%7B2%7D%5E%7Bnew%7D-%5Calpha_%7B2%7D%5E%7B*%7D)y%5E%7B(2)%7Dx%5E%7B(2)%7Dx%5E%7B(1)%7D%0A" style="border:none;" />
 
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=%3D%3Eb%5E%7B2%7D%3DE%5E%7B2%7D%2Bb%5E%7B*%7D-(%5Calpha_%7B1%7D%5E%7Bnew%7D-%5Calpha_%7B1%7D%5E%7B*%7D)y%5E%7B(1)%7Dx%5E%7B(1)%7Dx%5E%7B(2)%7D-(%5Calpha_%7B2%7D%5E%7Bnew%7D-%5Calpha_%7B2%7D%5E%7B*%7D)y%5E%7B(2)%7Dx%5E%7B(2)%7Dx%5E%7B(2)%7D" style="border:none;" />
+
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=%3D%3Eif%20%5Cqquad%200%3C%5Calpha_%7B1%7D%5E%7Bnew%7D%3CC%20%3A%20b%5E%7Bnew%7D%3Db%5E%7B1%7D%3Cbr%3E%0A%3D%3Eelse%20%5Cqquad%20if%20%5Cqquad%200%3C%5Calpha_%7B2%7D%5E%7Bnew%7D%3CC%20%3A%20b%5E%7Bnew%7D%3Db%5E%7B2%7D%3Cbr%3E%0A%3D%3Eelse%20%5Cqquad%20b%5E%7Bnew%7D%3D%5Cfrac%7Bb%5E%7B2%7D%2Bb%5E%7B1%7D%7D%7B2%7D%3Cbr%3E%0A" style="border:none;" />
 
         The derivation process ends.
         
