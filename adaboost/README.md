@@ -1,10 +1,10 @@
 #AdaBoost
 ###1.Background
-    AdaBoost, short for "Adaptive Boosting". It can be used in conjunction with many other types of learning algorithms.
+    AdaBoost, short for "Adaptive Boosting". It can be used in conjunction with many other types of learning 
     
-    AdaBoost is adaptive in the sense that a misclassified sample of the previous classifier is used to train the
+    algorithms.AdaBoost is adaptive in the sense that a misclassified sample of the previous classifier is 
     
-    next classifier. AdaBoost is sensitive to noisy data and outliers.
+    used to train the next classifier. AdaBoost is sensitive to noisy data and outliers.
     
     In some problems it can be less susceptible to the overfitting problem than other learning algorithms.
     
