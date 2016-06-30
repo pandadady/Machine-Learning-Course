@@ -48,14 +48,19 @@
     
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=E_%7Bm%7D%3D%20%5Csum_%7By_%7Bi%7D%3Dk_%7Bm%7D(x_%7Bi%7D)%7D%20w_%7Bi%7D%5E%7B(m)%7D%20e%5E%7B-%5Calpha_%7Bm%7D%7D%2B%5Csum_%7By_%7Bi%7D%5Cne%20k_%7Bm%7D(x_%7Bi%7D)%7D%20w_%7Bi%7D%5E%7B(m)%7D%20e%5E%7B%5Calpha_%7Bm%7D%7D" style="border:none;" />
     
+    Simplify the notation to
+        
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=E_%7Bm%7D%3D%20W_%7Bc%7D%20e%5E%7B-%5Calpha_%7Bm%7D%7D%2BW_%7Be%7D%20e%5E%7B%5Calpha_%7Bm%7D%7D" style="border:none;" />
+
+    Em is a function of alpha_m. It's easy to get a alpha_m when make Em get min value.
     
-    Assume that here is a classifier of adaboost, its misclassified rate is shown as below.
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=%5Cfrac%7B%5Cpart%20E_%7Bm%7D%7D%7B%5Cpart%20%5Calpha_%7Bm%7D%7D%20%3D%20-W_%7Bc%7De%5E%7B-%5Calpha_%7Bm%7D%7D%2BW_%7Be%7De%5E%7B%5Calpha_%7Bm%7D%7D%3D0" style="border:none;" />
+
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=%20-W_%7Bc%7D%2BW_%7Be%7De%5E%7B2%5Calpha_%7Bm%7D%7D%3D0%3Cbr%3E%0A%5Calpha_%7Bm%7D%3D%5Cfrac%7B1%7D%7B2%7Dln(%5Cfrac%7BW_%7Bc%7D%7D%7BW_%7Be%7D%7D)" style="border:none;" />
+
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=%5Calpha_%7Bm%7D%3D%5Cfrac%7B1%7D%7B2%7Dln(%5Cfrac%7BW-W_%7Be%7D%7D%7BW_%7Be%7D%7D)%3Cbr%3E%0A%3D%5Calpha_%7Bm%7D%3D%5Cfrac%7B1%7D%7B2%7Dln(%5Cfrac%7B1-W_%7Be%7D%7D%7BW_%7Be%7D%7D)" style="border:none;" />
+
     
-<img src="http://chart.googleapis.com/chart?cht=tx&chl=%5Cepsilon_%7Bi%7D%20%3D%5Cfrac%7BNo.i%20%5C%20%5C%20%5C%20misclassified%20%5C%20%5C%20%5C%20%20number%7D%7B%20total%20%5C%20%5C%20%5C%20%20number%7D" style="border:none;" />
-    
-    Adaboost algorithm assigns a weight alpha for each classifier, alpha is calculated by the formula shown as below.
-    
-<img src="http://chart.googleapis.com/chart?cht=tx&chl=%5Calpha_%7Bi%7D%20%3D%5Cfrac%7B1%7D%7B2%7Dln(%5Cfrac%7B1-%5Cepsilon%20%7D%7B%5Cepsilon%7D)" style="border:none;" />
 
     
     
