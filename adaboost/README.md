@@ -18,11 +18,29 @@
     
 ###2.Derivation
     
+    The below section is from <<AdaBoost and the Super Bowl of Classifiers A Tutorial 
+    
+    Introduction to Adaptive Boosting>>
+    
     Input:
     
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=T%3D%5B(x%5E%7B(1)%7D%2Cy%5E%7B(1)%7D)%2C(x%5E%7B(2)%7D%2Cy%5E%7B(2)%7D)%2C...(x%5E%7B(n)%7D%2Cy%5E%7B(n)%7D)%5D%0A%3Cbr%3E%0AY%5Cin%20%5B-1%2C1%5D" style="border:none;" />
 
-    The output of xi of number i classifier is  <img src="http://chart.googleapis.com/chart?cht=tx&chl=k_%7Bi%7D(x%5E%7Bi%7D)" style="border:none;" />
+    The output of xi of number i classifier is  
+    
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=k_%7Bi%7D(x%5E%7Bi%7D)" style="border:none;" />
+
+    The (m-1)-th iteration is shown as below.
+    
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=C_%7B(m-1)%7D(x_%7Bi%7D)%3D%5Calpha_%7B1%7Dk_%7B1%7D(x%5E%7Bi%7D)%2B%5Calpha_%7B2%7Dk_%7B2%7D(x%5E%7Bi%7D)%2B...%2B%5Calpha_%7Bm-1%7Dk_%7Bm-1%7D(x%5E%7Bi%7D)" style="border:none;" />
+
+    The (m)-th iteration is shown as below.
+    
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=C_%7B(m)%7D(x_%7Bi%7D)%3DC_%7B(m-1)%7D(x_%7Bi%7D)%2B%5Calpha_%7Bm%7Dk_%7Bm%7D(x%5E%7Bi%7D)" style="border:none;" />
+    
+    Set total errors of m-th round is exponential loss, formula is shown as below.
+    
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=E_%7Bm%7D%3D%5Csum_%7Bi%3D1%7D%5EN%20e%5E%7B-y_%7Bi%7DC_%7B(m)%7D(x_%7Bi%7D)%7D%3Cbr%3E%0A%3D%5Csum_%7Bi%3D1%7D%5EN%20e%5E%7B-y_%7Bi%7D(C_%7B(m-1)%7D(x_%7Bi%7D)%2B%5Calpha_%7Bm%7Dk_%7Bm%7D(x_%7Bi%7D))%7D" style="border:none;" />
     
     
     
