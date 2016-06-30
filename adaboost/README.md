@@ -60,6 +60,8 @@
 
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=%5Calpha_%7Bm%7D%3D%5Cfrac%7B1%7D%7B2%7Dln(%5Cfrac%7BW-W_%7Be%7D%7D%7BW_%7Be%7D%7D)%3Cbr%3E%0A%3D%5Calpha_%7Bm%7D%3D%5Cfrac%7B1%7D%7B2%7Dln(%5Cfrac%7B1-W_%7Be%7D%7D%7BW_%7Be%7D%7D)" style="border:none;" />
 
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=%5Calpha_%7Bm%7D%3D%5Cfrac%7B1%7D%7B2%7Dln(%5Cfrac%7BW-W_%7Be%7D%7D%7BW_%7Be%7D%7D)%3Cbr%3E%0A%3D%5Calpha_%7Bm%7D%3D%5Cfrac%7B1%7D%7B2%7Dln(%5Cfrac%7B%5Cfrac%7BW%7D%7BW%7D-%5Cfrac%7BW_%7Be%7D%7D%7BW%7D%7D%7B%5Cfrac%7BW_%7Be%7D%7D%7BW%7D%7D)%3Cbr%3E%0A%3D%5Cfrac%7B1%7D%7B2%7Dln(%5Cfrac%7B1-e_%7Bm%7D%7D%7Be_%7Bm%7D%7D)" style="border:none;" />
+
     
 
     
