@@ -269,12 +269,15 @@
     
     The common kernel functions are Basis Function Radial.
     
-    <img src="http://chart.googleapis.com/chart?cht=tx&chl=K%3D%5Bk_%7B1%7D%2Ck_%7B2%7D%2C...%2Ck_%7Bm%7D%5D%20%3Cbr%3E%0A%3Cbr%3E%0Ak_%7Bi%7D%20%3D%5Bk_%7B1i%7D%2Ck_%7B2i%7D%2C...%2Ck_%7Bmi%7D%5D%3Cbr%3E%0A%3Cbr%3E%0Ak_%7Bij%7D%3De%5E%7B(-%5Cfrac%7B(%7C%7Cx_%7Bj%7D-x%7Bi%7D%7C%7C)%5E%7B2%7D%7D%7B2%5Csigma%5E%7B2%7D%20%7D)%7D%3Cbr%3E%0A%0A%0A" style="border:none;" />
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=K%3D%5Bk_%7B1%7D%2Ck_%7B2%7D%2C...%2Ck_%7Bm%7D%5D%20%3Cbr%3E%0A%3Cbr%3E%0Ak_%7Bi%7D%20%3D%5Bk_%7B1i%7D%2Ck_%7B2i%7D%2C...%2Ck_%7Bmi%7D%5D%3Cbr%3E%0A%3Cbr%3E%0Ak_%7Bij%7D%3De%5E%7B(-%5Cfrac%7B(%7C%7Cx_%7Bj%7D-x%7Bi%7D%7C%7C)%5E%7B2%7D%7D%7B2%5Csigma%5E%7B2%7D%20%7D)%7D%3Cbr%3E%0A%0A%0A" style="border:none;" />
     
     
 ###4.Algorithm thinking
      
-    (1) Training SVM, initialize input parameter such as data,label,fault tolerant value[Errors],constant C, iteration times.
+    (1) Training SVM, initialize input parameter such as data,label,fault tolerant value[Errors],
+    
+        constant C, iteration times.
+        
     (2) 
     
     
