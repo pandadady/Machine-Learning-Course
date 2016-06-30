@@ -22,8 +22,7 @@
     
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=T%3D%5B(x%5E%7B(1)%7D%2Cy%5E%7B(1)%7D)%2C(x%5E%7B(2)%7D%2Cy%5E%7B(2)%7D)%2C...(x%5E%7B(n)%7D%2Cy%5E%7B(n)%7D)%5D%0A%3Cbr%3E%0AY%5Cin%20%5B-1%2C1%5D" style="border:none;" />
 
-    The output of xi of number i classifier is 
-<img src="http://chart.googleapis.com/chart?cht=tx&chl=k_%7Bi%7D(x%5E%7Bi%7D)" style="border:none;" />
+    The output of xi of number i classifier is  <img src="http://chart.googleapis.com/chart?cht=tx&chl=k_%7Bi%7D(x%5E%7Bi%7D)" style="border:none;" />
     
     
     
