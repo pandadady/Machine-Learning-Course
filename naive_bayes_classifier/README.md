@@ -1,4 +1,4 @@
-#naive bayes classifier
+#Naive Bayes Classifier
 
 ###1.Background
 
