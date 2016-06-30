@@ -271,16 +271,45 @@
     
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=K%3D%5Bk_%7B1%7D%2Ck_%7B2%7D%2C...%2Ck_%7Bm%7D%5D%20%3Cbr%3E%0A%3Cbr%3E%0Ak_%7Bi%7D%20%3D%5Bk_%7B1i%7D%2Ck_%7B2i%7D%2C...%2Ck_%7Bmi%7D%5D%3Cbr%3E%0A%3Cbr%3E%0Ak_%7Bij%7D%3De%5E%7B(-%5Cfrac%7B(%7C%7Cx_%7Bj%7D-x%7Bi%7D%7C%7C)%5E%7B2%7D%7D%7B2%5Csigma%5E%7B2%7D%20%7D)%7D%3Cbr%3E%0A%0A%0A" style="border:none;" />
     
-###5.Heuristic selection method
+###4.Heuristic selection method
 
+    The main thinking of heuristic selection method is used to select lagrange operator.
+    
+    The alpha between 0 to C have more priority to be selected than alpha is 0 or C.
+    
+    According to Osuna algorithm, which is shown as below, first step of selection method is looping all the samples of data,
+    
+    [ A sequence of QP sub-problems that always add at least one violator of 
+    
+    the Karush–Kuhn–Tucker (KKT) conditions is guaranteed to converge. ]
+    
+    it doesn't matter alpha is  between 0 to C or not.
+    
+    Second step is looping alpha between 0 to C.
+    
+    For the second alpha, it is selected to make |E1-E2| get max value.
+    
 
-###4.Algorithm thinking
+###5.Algorithm thinking
      
     (1) Training SVM, initialize input parameter such as data,label,fault tolerant value[Errors],
     
-        constant C, iteration times.
+        constant C, max iteration times.
         
-    (2) 
+    (2) Set stop condition, iteration times equals max times and alpha set is not changed for one time. 
+    
+        The continuing condition is the opposite.
+        
+    (3) Loop start, Loop all the sample at first time to calculate parameter of SVM, such as alpha,H,L,b.
+    
+    (4) Loop alpha between 0 to C.
+    
+    (5) In the parameter calculation, according to the fault tolerance rate, the program determine whether alpha[i] need to update.     
+        If alpha need to update, select second alpha, then computer H ,L, alpha and b whose formula are given as above.
+        
+    
+    
+    
     
     
         
