@@ -6,7 +6,6 @@ Authors: shiduo(shiduo@baidu.com)
 Date:2016-6-11
 """
 from numpy import *
-from time import sleep
 
 class optStruct:
 """
