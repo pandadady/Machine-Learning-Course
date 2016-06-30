@@ -304,8 +304,13 @@
     
     (4) Loop alpha between 0 to C.
     
-    (5) In the parameter calculation, according to the fault tolerance rate, the program determine whether alpha[i] need to update.     
-        If alpha need to update, select second alpha, then computer H ,L, alpha and b whose formula are given as above.
+    (5) In the parameter calculation, according to the fault tolerance rate, 
+    
+        the program determine whether alpha[i] need to update.     
+        
+        If alpha need to update, select second alpha, then computer H ,L, alpha and b 
+        
+        whose formula are given as above.
         
     
     
