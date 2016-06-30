@@ -174,7 +174,17 @@
         
     (5) SMO 
         
-        This section is from <<Sequential Minimal Optimization A Fast Algorithm for Training Support Vector Machines>>.
+        This section is from <<Sequential Minimal Optimization A Fast Algorithm for Training Support Vector 
+        
+        Machines>>.
+        
+        Because of the lack of algorithms in the paper process (may feel that we all understand, T^T), 
+        
+        The following is based on my understanding(according JerryLead'notes and the paper and 
+        
+        machine learning action) of the derivation of the algorithm.
+        
+        Let's begin.
         
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=W(%5Calpha)%3D%5Csum_%7Bi%3D1%7D%5Em%20%5Calpha_%7Bi%7D-%5Cfrac%7B1%7D%7B2%7D%5Csum_%7Bi%2Cj%3D1%7D%5Em%20y%5E(i)y%5E(j)%5Calpha_%7Bi%7D%5Calpha_%7Bj%7D%3Cx%5E%7B(i)%7D.x%5E%7B(j)%7D%3E" style="border:none;" />
             
