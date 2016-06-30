@@ -41,7 +41,8 @@
     Set total errors of m-th round is exponential loss, formula is shown as below.
     
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=E_%7Bm%7D%3D%5Csum_%7Bi%3D1%7D%5EN%20e%5E%7B-y_%7Bi%7DC_%7B(m)%7D(x_%7Bi%7D)%7D%3Cbr%3E%0A%3D%5Csum_%7Bi%3D1%7D%5EN%20e%5E%7B-y_%7Bi%7D(C_%7B(m-1)%7D(x_%7Bi%7D)%2B%5Calpha_%7Bm%7Dk_%7Bm%7D(x_%7Bi%7D))%7D" style="border:none;" />
-    
+
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=Set%3A%20%5C%20%5C%20%5C%20w_%7Bi%7D%5E%7B(m)%7D%3De%5E%7B-y_%7Bi%7DC_%7B(m-1)(x_%7Bi%7D)%7D%7D%0A%3Cbr%3E%0A%3Cbr%3E%0A%3Cbr%3E%0A%0AE_%7Bm%7D%3D%20%5Csum_%7Bi%3D1%7D%5EN%20w_%7Bi%7D%5E%7B(m)%7D%20e%5E%7B-y_%7Bi%7D%5Calpha_%7Bm%7Dk_%7Bm%7D(x_%7Bi%7D)%7D%7D" style="border:none;" />
     
     
     
