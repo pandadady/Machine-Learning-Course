@@ -1,4 +1,4 @@
-#Logistic regression
+#Logistic Regression
 ###1.Background
     Logistic regression was developed by statistician David Cox in 1958.
     
