@@ -2,15 +2,15 @@
 ###1.Background
     AdaBoost, short for "Adaptive Boosting". It can be used in conjunction with many other types of learning algorithms.
     
-    AdaBoost is adaptive in the sense that a misclassified sample of the previous classifier is used to train the next classifier.
+    AdaBoost is adaptive in the sense that a misclassified sample of the previous classifier is used to train the
     
-    AdaBoost is sensitive to noisy data and outliers.
+    next classifier. AdaBoost is sensitive to noisy data and outliers.
     
     In some problems it can be less susceptible to the overfitting problem than other learning algorithms.
     
-    The individual learners can be weak, but as long as the performance of each one is slightly better than random guessing
+    The individual learners can be weak, but as long as the performance of each one is slightly better than random 
     
-    (e.g., their error rate is smaller than 0.5 for binary classification), 
+    guessing (e.g., their error rate is smaller than 0.5 for binary classification), 
     
     the final model can be proven to converge to a strong learner.
 
