@@ -260,6 +260,10 @@
 
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=%3D%3Eb%5E%7Bnew%7D%3DE%5E%7B1%7D%2Bb%5E%7B*%7D-(%5Calpha_%7B1%7D%5E%7Bnew%7D-%5Calpha_%7B1%7D%5E%7B*%7D)y%5E%7B(1)%7Dx%5E%7B(1)%7Dx%5E%7B(1)%7D-(%5Calpha_%7B2%7D%5E%7Bnew%7D-%5Calpha_%7B2%7D%5E%7B*%7D)y%5E%7B(2)%7Dx%5E%7B(2)%7Dx%5E%7B(1)%7D" style="border:none;" />
 
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=%3D%3Eb%5E%7B1%7D%3DE%5E%7B1%7D%2Bb%5E%7B*%7D-(%5Calpha_%7B1%7D%5E%7Bnew%7D-%5Calpha_%7B1%7D%5E%7B*%7D)y%5E%7B(1)%7Dx%5E%7B(1)%7Dx%5E%7B(1)%7D-(%5Calpha_%7B2%7D%5E%7Bnew%7D-%5Calpha_%7B2%7D%5E%7B*%7D)y%5E%7B(2)%7Dx%5E%7B(2)%7Dx%5E%7B(1)%7D%0A" style="border:none;" />
+
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=%3D%3Eb%5E%7B2%7D%3DE%5E%7B2%7D%2Bb%5E%7B*%7D-(%5Calpha_%7B1%7D%5E%7Bnew%7D-%5Calpha_%7B1%7D%5E%7B*%7D)y%5E%7B(1)%7Dx%5E%7B(1)%7Dx%5E%7B(2)%7D-(%5Calpha_%7B2%7D%5E%7Bnew%7D-%5Calpha_%7B2%7D%5E%7B*%7D)y%5E%7B(2)%7Dx%5E%7B(2)%7Dx%5E%7B(2)%7D" style="border:none;" />
+
         The derivation process ends.
         
 ###3.Algorithm thinking
