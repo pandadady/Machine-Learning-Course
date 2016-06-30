@@ -4,9 +4,9 @@ This repository is used to practice machine learning algorithms.Including: princ
 
 1.Update
 ------------------------------------------------------------------------
-### (1).Decision tree
-### (2).Native bayes classfication
-### (3).Logistic regression
+### (1).Decision Tree
+### (2).Native Bayes Classfication
+### (3).Logistic Regression
 ### (4).Support Vector Machine
 
 
