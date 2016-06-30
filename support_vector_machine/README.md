@@ -287,7 +287,9 @@
     
     The alpha between 0 to C have more priority to be selected than alpha is 0 or C.
     
-    According to Osuna algorithm, which is shown as below, first step of selection method is looping all the samples of data,
+    According to Osuna algorithm, which is shown as below, first step of selection method is 
+    
+    looping all the samples of data,
     
     [ A sequence of QP sub-problems that always add at least one violator of 
     
