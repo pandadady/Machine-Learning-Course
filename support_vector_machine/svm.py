@@ -186,7 +186,7 @@ function:
         w += multiply(alphas[i]*labelMat[i],X[i,:].T)
     return w
 if __name__ == '__main__':
-    fileName='../data/testSetsvm.txt'
+    fileName='./test.txt'
     dataMat,labelMat=loadDataSet(fileName)
     dataMatIn=dataMat
     classLabels= labelMat
