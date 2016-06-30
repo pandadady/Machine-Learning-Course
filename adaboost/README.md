@@ -44,7 +44,9 @@
 
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=Set%3A%20%5C%20%5C%20%5C%20w_%7Bi%7D%5E%7B(m)%7D%3De%5E%7B-y_%7Bi%7DC_%7B(m-1)(x_%7Bi%7D)%7D%7D%0A%3Cbr%3E%0A%3Cbr%3E%0A%3Cbr%3E%0A%0AE_%7Bm%7D%3D%20%5Csum_%7Bi%3D1%7D%5EN%20w_%7Bi%7D%5E%7B(m)%7D%20e%5E%7B-y_%7Bi%7D%5Calpha_%7Bm%7Dk_%7Bm%7D(x_%7Bi%7D)%7D%7D" style="border:none;" />
     
+    It is easy to understand that some of Ki are correct and the others are error, so E trans to the below formula.
     
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=E_%7Bm%7D%3D%20%5Csum_%7By_%7Bi%7D%3Dk_%7Bm%7D(x_%7Bi%7D)%7D%20w_%7Bi%7D%5E%7B(m)%7D%20e%5E%7B-%5Calpha_%7Bm%7D%7D%2B%5Csum_%7By_%7Bi%7D%5Cne%20k_%7Bm%7D(x_%7Bi%7D)%7D%20w_%7Bi%7D%5E%7B(m)%7D%20e%5E%7B%5Calpha_%7Bm%7D%7D" style="border:none;" />
     
     
     Assume that here is a classifier of adaboost, its misclassified rate is shown as below.
