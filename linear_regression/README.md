@@ -29,9 +29,9 @@
         
         Update W by the follow formula, which cause loss function decrease in gradient direction.
         
-        <img src="http://chart.googleapis.com/chart?cht=tx&chl=%5Cfrac%7B%5Cpart%20J(W)%7D%7B%5Cpart%20w_%7Bk%7D%7D%3D%20(WX%5E%7B(i)%7D-y%5E%7B(i)%7D)x%5E%7Bi%7D_%7Bk%7D" style="border:none;" />
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=%5Cfrac%7B%5Cpart%20J(W)%7D%7B%5Cpart%20w_%7Bk%7D%7D%3D%20(WX%5E%7B(i)%7D-y%5E%7B(i)%7D)x%5E%7Bi%7D_%7Bk%7D" style="border:none;" />
         
-        <img src="http://chart.googleapis.com/chart?cht=tx&chl=w_%7Bk%7D%5E%7Bnew%7D%3Dw_%7Bk%7D%2B%5Calpha%20%5Cfrac%7B%5Cpart%20J(W)%7D%7B%5Cpart%20w_%7Bk%7D%7D" style="border:none;" />
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=w_%7Bk%7D%5E%7Bnew%7D%3Dw_%7Bk%7D%2B%5Calpha%20%5Cfrac%7B%5Cpart%20J(W)%7D%7B%5Cpart%20w_%7Bk%7D%7D" style="border:none;" />
         
         Batch gradient descent method, Use all the data to update W each iterative time, it costs memery and iteration, 
         
