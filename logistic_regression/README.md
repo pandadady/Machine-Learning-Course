@@ -73,7 +73,7 @@
     
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=w_%7Bk%7D%3Dw_%7Bk%7D%2B%5Calpha%20%5Cfrac%7B%5Cpart%20lnL(w)%7D%7B%5Cpart%20w_%7Bk%7D%7D&chco=000000&chf=a,s,00000080" style="border:none;" />
 
-<img src="http://chart.googleapis.com/chart?cht=tx&chl=%5Cfrac%7B%5Cpart%20lnL(w)%7D%7B%5Cpart%20w_%7Bk%7D%7D%3D%5Csum_%7Bi%3D1%7D%5EM%20X%5E%7Bi%7D(Y%5E%7Bi%7D-%5Cfrac%7B1%7D%7B1%2Be%5E%7B-X%5E%7Bi%7D%7D%7D)&chco=000000&chf=a,s,00000080" style="border:none;" />
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=%5Cfrac%7B%5Cpart%20lnL(w)%7D%7B%5Cpart%20w_%7Bk%7D%7D%3D%5Csum_%7Bi%3D1%7D%5Em%20x%5E%7Bi%7D_%7Bk%7D%5By%5E%7Bi%7D-%5Cfrac%7B1%7D%7B1%2Be%5E%7B-x_%7Bi%7D%7D%7D%5D" style="border:none;" />
 
 ###4.Algorithm thinking
     
@@ -83,7 +83,9 @@
     
     (2) At each iteration, it is needed to calculate w for m times, m is the number of input data.
     
-    (3) At each calculation, it is needed to randomly get 1 piece of data to calculate, and delete it from data set at the end.
+    (3) At each calculation, it is needed to randomly get 1 piece of data to calculate, 
+    
+        and delete it from data set at the end.
     
     
     
