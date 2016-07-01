@@ -8,6 +8,7 @@ This repository is used to practice machine learning algorithms.Including: princ
 ### (2).Native Bayes Classfication
 ### (3).Logistic Regression
 ### (4).Support Vector Machine
+### (5).Adaboost
 
 
 
