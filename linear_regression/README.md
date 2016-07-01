@@ -37,8 +37,8 @@
         
         it costs memery and iteration, it can continuously convergent. 
         
-        Random gradient descent method, Use a random data sample to W each iterative time, it costs less memery and few iteration,
+        Random gradient descent method, Use a random data sample to W each iterative time, 
         
-        its result may be wandering in the convergence.
+        it costs less memery and few iteration, its result may be wandering in the convergence.
         
     (2) Least square method
