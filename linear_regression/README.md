@@ -11,21 +11,34 @@
     
     Here is going to show two kinds of derivation.
     
-    (1) Gradient descent method
-        Input vecoter is X which is [x1,x2,...,xn], Output is Y which is [y1,y2,...,yn], assume that Y has 
+    Input vecoter is X which is [x1,x2,...,xn] and the number is n, Output is Y which is [y1,y2,...,yn], assume that Y has 
         
-        relationship with X as below, W is coefficient vector which is unknow.
+    relationship with X as below, W is coefficient vector which is unknow.
         
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=Y%3DXW" style="border:none;" />
         
-        The purpose is to get the suitable coefficient . Assume the suitable coefficient is W, then we get 
+    The purpose is to get the suitable coefficient . Assume the suitable coefficient is W, then we get 
         
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=h_%7Bw%7D(x)%3DXW" style="border:none;" />
+
+    (1) Gradient descent method
         
         The loss function is defined as follows.
         
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=J(W)%3D%5Cfrac%7B1%7D%7B2%7D%5Csum_%7Bi%3D1%7D%5Em%20(h_%7Bw%7D(x%5E%7B(i)%7D)-y%5E%7B(i)%7D)%5E%7B2%7D" style="border:none;" />
         
+        Update W by the follow formula, which cause loss function decrease in gradient direction.
         
+        <img src="http://chart.googleapis.com/chart?cht=tx&chl=%5Cfrac%7B%5Cpart%20J(W)%7D%7B%5Cpart%20w_%7Bk%7D%7D%3D%20(WX%5E%7B(i)%7D-y%5E%7B(i)%7D)x%5E%7Bi%7D_%7Bk%7D" style="border:none;" />
+        
+        <img src="http://chart.googleapis.com/chart?cht=tx&chl=w_%7Bk%7D%5E%7Bnew%7D%3Dw_%7Bk%7D%2B%5Calpha%20%5Cfrac%7B%5Cpart%20J(W)%7D%7B%5Cpart%20w_%7Bk%7D%7D" style="border:none;" />
+        
+        Batch gradient descent method, Use all the data to update W each iterative time, it costs memery and iteration, 
+        
+        it can continuously convergent. 
+        
+        Random gradient descent method, Use a random data sample to W each iterative time, it costs less memery and few iteration,
+        
+        its result may be wandering in the convergence.
         
     (2) Least square method
