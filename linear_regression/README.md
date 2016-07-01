@@ -42,3 +42,5 @@
         it costs less memery and few iteration, its result may be wandering in the convergence.
         
     (2) Least square method
+    
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=min_%7Bx%7D%7C%7CXW-Y%7C%7C_%7B2%7D%5C%5C%0A%20%5C%20%5C%20%5C%20%5C%20%5C%5C%0A%5C%20%5C%20%5C%20%5C%20%5C%20%5C%5C%0AY%3DY_%7B1%7D%2BY_%7B2%7D%5C%5C%0A%20%5C%20%5C%20%5C%20%5C%20%5C%5C%0A%5C%20%5C%20%5C%20%5C%20%5C%20%5C%5C%0AY_%7B1%7D%20%3D%20WW%5E%7BT%7DY%5C%5C%0AY_%7B2%7D%20%3D%20(I-WW%5E%7BT%7D)Y%5C%5C%0A%0A" style="border:none;" />
