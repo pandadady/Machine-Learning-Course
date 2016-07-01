@@ -86,6 +86,9 @@
             
             Calculate alpha according to the formula which is given above.
             
+            Update weight according to the formula which is given above.
+            
+            Calculate total error, stop looping till total error is 0.
             
             
 
