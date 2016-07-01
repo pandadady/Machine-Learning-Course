@@ -16,15 +16,15 @@
         
         relationship with X as below, W is coefficient vector which is unknow.
         
-        <img src="http://chart.googleapis.com/chart?cht=tx&chl=Y%3DXW" style="border:none;" />
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=Y%3DXW" style="border:none;" />
         
         The purpose is to get the suitable coefficient . Assume the suitable coefficient is W, then we get 
         
-        <img src="http://chart.googleapis.com/chart?cht=tx&chl=h_%7Bw%7D(x)%3DXW" style="border:none;" />
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=h_%7Bw%7D(x)%3DXW" style="border:none;" />
         
         The loss function is defined as follows.
         
-        <img src="http://chart.googleapis.com/chart?cht=tx&chl=J(W)%3D%5Cfrac%7B1%7D%7B2%7D%5Csum_%7Bi%3D1%7D%5Em%20(h_%7Bw%7D(x%5E%7B(i)%7D)-y%5E%7B(i)%7D)%5E%7B2%7D" style="border:none;" />
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=J(W)%3D%5Cfrac%7B1%7D%7B2%7D%5Csum_%7Bi%3D1%7D%5Em%20(h_%7Bw%7D(x%5E%7B(i)%7D)-y%5E%7B(i)%7D)%5E%7B2%7D" style="border:none;" />
         
         
         
