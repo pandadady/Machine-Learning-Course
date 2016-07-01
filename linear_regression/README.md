@@ -11,9 +11,9 @@
     
     Here is going to show two kinds of derivation.
     
-    Input vecoter is X which is [x1,x2,...,xn] and the number is n, Output is Y which is [y1,y2,...,yn], assume that Y has 
-        
-    relationship with X as below, W is coefficient vector which is unknow.
+    Input vecoter is X which is [x1,x2,...,xn] and the number is n, Output is Y which is [y1,y2,...,yn], 
+    
+    assume that Y has relationship with X as below, W is coefficient vector which is unknow.
         
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=Y%3DXW" style="border:none;" />
         
@@ -33,9 +33,9 @@
         
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=w_%7Bk%7D%5E%7Bnew%7D%3Dw_%7Bk%7D%2B%5Calpha%20%5Cfrac%7B%5Cpart%20J(W)%7D%7B%5Cpart%20w_%7Bk%7D%7D" style="border:none;" />
         
-        Batch gradient descent method, Use all the data to update W each iterative time, it costs memery and iteration, 
+        Batch gradient descent method, Use all the data to update W each iterative time, 
         
-        it can continuously convergent. 
+        it costs memery and iteration, it can continuously convergent. 
         
         Random gradient descent method, Use a random data sample to W each iterative time, it costs less memery and few iteration,
         
