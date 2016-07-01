@@ -22,7 +22,7 @@
     
     Introduction to Adaptive Boosting>>
     
-    Input:
+    The Input is 
     
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=T%3D%5B(x%5E%7B(1)%7D%2Cy%5E%7B(1)%7D)%2C(x%5E%7B(2)%7D%2Cy%5E%7B(2)%7D)%2C...(x%5E%7B(n)%7D%2Cy%5E%7B(n)%7D)%5D%0A%3Cbr%3E%0AY%5Cin%20%5B-1%2C1%5D" style="border:none;" />
 
@@ -62,9 +62,32 @@
 
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=%5Calpha_%7Bm%7D%3D%5Cfrac%7B1%7D%7B2%7Dln(%5Cfrac%7BW-W_%7Be%7D%7D%7BW_%7Be%7D%7D)%3Cbr%3E%0A%3D%5Calpha_%7Bm%7D%3D%5Cfrac%7B1%7D%7B2%7Dln(%5Cfrac%7B%5Cfrac%7BW%7D%7BW%7D-%5Cfrac%7BW_%7Be%7D%7D%7BW%7D%7D%7B%5Cfrac%7BW_%7Be%7D%7D%7BW%7D%7D)%3Cbr%3E%0A%3D%5Cfrac%7B1%7D%7B2%7Dln(%5Cfrac%7B1-e_%7Bm%7D%7D%7Be_%7Bm%7D%7D)" style="border:none;" />
 
-###3. Pseudocode
-
+    Update weight 
     
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=D%5E%7Bm%7D%3D%5Bw_%7B1%7D%5E%7Bm%7D%2Cw_%7B2%7D%5E%7Bm%7D%2C...%2Cw_%7Bn%7D%5E%7Bm%7D%5D%5C%5C%0Aafter%20%5C%20%5C%20%5C%20%5C%20%5C%20update%5C%5C%0AD%5E%7Bm%2B1%7D%3D%5Bw_%7B1%7D%5E%7Bm%2B1%7D%2Cw_%7B2%7D%5E%7Bm%2B1%7D%2C...%2Cw_%7Bn%7D%5E%7Bm%2B1%7D%5D%5C%5C%0A%5C%5C%0A%5C%5C%0Aw_%7Bi%7D%5E%7Bm%2B1%7D%20%3D%20e%5E%7B-y_%7Bi%7DC_%7B(m)%7D(x_%7Bi%7D)%7D%3De%5E%7B-y_%7Bi%7D%5Calpha_%7Bm%7Dk_%7B(m)%7D(x_%7Bi%7D)%7D" style="border:none;" />
+
+###3. Pseudocode
+    
+    set max iterative times, weight vector D.
+    
+    While: iterative times is not max times
+    
+            create a weak classifier [get min and max of every column, set step number and get setp size 
+            
+            which is (max-min)/step number,calc threshold which is (rangeMin + i* stepSize),i is the number of step
+            
+            Classify data by threshold twice, First time operation is setting the lable of digit which is 
+            
+            less than threshold -1, second time operation is setting the lable of digit which is 
+            
+            greater than threshold -1.The weight error of  classification is  D.T * (misclassification number) .
+            
+            It is natural to choose classification which has min weight error as the weak classifier.]
+            
+            Calculate alpha according to the formula which is given above.
+            
+            
+            
 
     
     
