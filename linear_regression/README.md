@@ -49,7 +49,7 @@
     
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=min_%7B%5Ctheta%7D%7C%7CX%5Ctheta-Y%7C%7C_%7B2%7D%5E%7B2%7D%0A%0A%0A%0A" style="border:none;" />
         
-<img src="http://chart.googleapis.com/chart?cht=tx&chl=%7C%7CXW-Y%7C%7C_%7B2%7D%5E%7B2%7D%5Cge%200%5C%5C%0A%20%5C%20%5C%20%5C%5C%0A%3D%3EXW%3DY%3D%3EX%5E%7BT%7DXW%3DX%5E%7BT%7DY%5C%5C%0A%20%5C%20%5C%20%5C%5C%0A%0A%0A" style="border:none;" />
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=%7C%7CX%5Ctheta-Y%7C%7C_%7B2%7D%5E%7B2%7D%5Cge%200%20%5C%5C%0A%5C%5C%0A%3D%3EX%5Ctheta%3DY%5C%5C%0A%5C%5C%0A%3D%3EX%5E%7BT%7DX%5Ctheta%3DX%5E%7BT%7DY%0A%0A%0A%0A" style="border:none;" />
 
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=When%20(X%5E%7BT%7DX)%5E%7B-1%7D%20%5C%20%5C%20exist%20%5C%5C%0A%20%5C%20%5C%20%5C%5C%0A%5Ctheta%3D%20(X%5E%7BT%7DX)%5E%7B-1%7DX%5E%7BT%7DY%0A%0A%0A%0A" style="border:none;" />
 
