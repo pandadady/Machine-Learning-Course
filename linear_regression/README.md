@@ -23,13 +23,11 @@
         
         The loss function is defined as follows.
         
-<img src="http://chart.googleapis.com/chart?cht=tx&chl=J(W)%3D%5Cfrac%7B1%7D%7B2%7D%5Csum_%7Bi%3D1%7D%5Em%20(h_%7Bw%7D(x%5E%7B(i)%7D)-y%5E%7B(i)%7D)%5E%7B2%7D" style="border:none;" />
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=J(%5Ctheta)%3D%5Cfrac%7B1%7D%7B2%7D%5Csum_%7Bi%3D1%7D%5Em%20(h_%7B%5Ctheta%7D(x%5E%7B(i)%7D)-y%5E%7B(i)%7D)%5E%7B2%7D%0A%0A%0A" style="border:none;" />
         
-        Update W by the follow formula, which cause loss function decrease in gradient direction.
+        Update theta by the follow formula, which cause loss function decrease in gradient direction.
         
-<img src="http://chart.googleapis.com/chart?cht=tx&chl=%5Cfrac%7B%5Cpart%20J(W)%7D%7B%5Cpart%20w_%7Bk%7D%7D%3D%20(WX%5E%7B(i)%7D-y%5E%7B(i)%7D)x%5E%7Bi%7D_%7Bk%7D" style="border:none;" />
-        
-<img src="http://chart.googleapis.com/chart?cht=tx&chl=w_%7Bk%7D%5E%7Bnew%7D%3Dw_%7Bk%7D%2B%5Calpha%20%5Cfrac%7B%5Cpart%20J(W)%7D%7B%5Cpart%20w_%7Bk%7D%7D" style="border:none;" />
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=%5Cfrac%7B%5Cpart%20J(%5Ctheta)%7D%7B%5Cpart%20%5Ctheta_%7Bk%7D%7D%3D(%5Ctheta%20x%5E%7B(i)%7D-y%5E%7B(i)%7D%20%20)x%5E%7B(i)%7D_%7Bk%7D%20%0A%5C%5C%0A%20%5C%20%5C%20%5C%5C%0A%5Ctheta_%7Bk%7D%5E%7Bnew%7D%3D%5Ctheta_%7Bk%7D-%5Calpha%20%5Cfrac%7B%5Cpart%20J(%5Ctheta)%7D%7B%5Cpart%20%5Ctheta_%7Bk%7D%7D%0A%0A%0A" style="border:none;" />
         
         Batch gradient descent method, Use all the data to update W each iterative time, 
         
