@@ -43,7 +43,11 @@
         
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=%7C%7CX%7C%7C_%7B2%7D%3D(x_%7B1%7D%5E%7B2%7D%2Bx_%7B2%7D%5E%7B2%7D%2B...%2Bx_%7Bn%7D%5E%7B2%7D)%5E%7B%5Cfrac%7B1%7D%7B2%7D%7D%0A%0A" style="border:none;" />
         
-        
+    In the linear regression algorithm derivation, the problem is how to calculate the special solution w
+    
+    of linear equations which is shown as below.
+    
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=min_%7BW%7D%7C%7CXW-Y%7C%7C_%7B2%7D%5E%7B2%7D%0A%0A%0A%0A" style="border:none;" />
         
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=%7C%7CXW-Y%7C%7C_%7B2%7D%5E%7B2%7D%5Cge%200%5C%5C%0A%20%5C%20%5C%20%5C%5C%0A%3D%3EXW%3DY%3D%3EX%5E%7BT%7DXW%3DX%5E%7BT%7DY%5C%5C%0A%20%5C%20%5C%20%5C%5C%0A%0A%0A" style="border:none;" />
 
