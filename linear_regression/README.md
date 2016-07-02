@@ -53,6 +53,8 @@
 
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=When%20(X%5E%7BT%7DX)%5E%7B-1%7D%20%5C%20%5C%20exist%20%5C%5C%0A%20%5C%20%5C%20%5C%5C%0A%5Ctheta%3D%20(X%5E%7BT%7DX)%5E%7B-1%7DX%5E%7BT%7DY%0A%0A%0A%0A" style="border:none;" />
 
+###3.Locally weighted linear regression derivation
+
 
 
 
