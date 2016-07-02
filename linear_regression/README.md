@@ -13,13 +13,11 @@
     
     Input vecoter is X which is [x1,x2,...,xn] and the number is n, Output is Y which is [y1,y2,...,yn], 
     
-    assume that Y has relationship with X as below, W is coefficient vector which is unknow.
+    Assume that Y has relationship with X as below, Theta is coefficient vector which is unknow.
         
-<img src="http://chart.googleapis.com/chart?cht=tx&chl=Y%3DXW" style="border:none;" />
+    Epsilon is error between real value and predictive value.
         
-    The purpose is to get the suitable coefficient . Assume the suitable coefficient is W, then we get 
-        
-<img src="http://chart.googleapis.com/chart?cht=tx&chl=h_%7Bw%7D(x)%3DXW" style="border:none;" />
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=h_%7B%5Ctheta%7D%3D%5Ctheta%5E%7BT%7DX%5C%5C%0A%20%5C%20%5C%20%5C%20%5C%20%5C%20%5C%5C%0AY%3D%5Ctheta%5E%7BT%7DX%2B%5Cepsilon%20%0A%0A%0A%0A" style="border:none;" />
 
     (1) Gradient descent method
         
