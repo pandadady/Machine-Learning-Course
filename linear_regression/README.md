@@ -55,6 +55,16 @@
 
 ###3.Locally weighted linear regression derivation
 
+    The linear regression algorithm is easy to appear under fitting condition.
+    
+    Locally weighted linear regression algorithm is often used to solve this sittuation.
+    
+    For the each pair of (x , y), There is a group of weight.  The weight and the distance from X to xi are in the direct ratio.
+    
+    (1) Least square method
+    
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=X%5Ctheta%3DY%20%5C%20%5C%20%3D%3EWX%5Ctheta%3DWY%20%5C%20%5C%20%3D%3EX%5E%7BT%7DWX%5Ctheta%3DX%5E%7BT%7DWY%5C%5C%0A%20%5C%20%5C%20%5C%5C%0Aif%20(X%5E%7BT%7DWX)%5E%7B-1%7D%20then%20%5Ctheta%3D(X%5E%7BT%7DWX)%5E%7B-1%7DX%5E%7BT%7DWY" style="border:none;" />
+
 
 
 
