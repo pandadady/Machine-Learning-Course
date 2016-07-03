@@ -57,13 +57,37 @@ def lwlr(testPoint,xArr,yArr,k=1.0):
         return
     ws = xTx.I * (xMat.T * (weights * yMat))
     return testPoint * ws
-
+def lwlr1(testPoint,xArr,yArr,k=1.0):
+"""
+    function:
+       Gradient descent method
+"""
+    xMat = mat(xArr); yMat = mat(yArr).T
+    m,n = shape(xMat)
+    weights = mat(eye((m)))
+    for j in range(m):                      #next 2 lines create weights matrix
+        diffMat = testPoint - xMat[j,:]    #
+        weights[j,j] = exp(diffMat*diffMat.T/(-2.0*k**2))
+    theta= mat(ones(n))
+    for i in range(n):
+        for j in range(m):
+            alpha = 4/(1.0+j+i)+0.0001
+            theta=theta-alpha*weights[j,j]*(xMat[j,:]*theta.T-yMat[j])*testPoint
+    return testPoint * theta.T
 def lwlrTestPlot(xArr,yArr,k=1.0):  
     yHat = zeros(shape(yArr))       
     xCopy = mat(xArr)
     xCopy.sort(0)
     for i in range(shape(xArr)[0]):
         yHat[i] = lwlr(xCopy[i],xArr,yArr,k)
+    return yHat,xCopy
+def lwlrTestPlot1(xArr,yArr,k=1.0): 
+    yHat = zeros(shape(yArr))     
+    xCopy = mat(xArr)
+    xCopy.sort(0)
+#     print lwlr1(xCopy[0],xArr,yArr,k)
+    for i in range(shape(xArr)[0]):
+        yHat[i] = lwlr1(xCopy[i],xArr,yArr,k)
     return yHat,xCopy
 def rssError(yArr,yHatArr): #yArr and yHatArr both need to be arrays
     return ((yArr-yHatArr)**2).sum()
@@ -80,3 +104,6 @@ if __name__ == '__main__':
     make_plot(dataMat,labelMat,xCopy,yHat)
     yHat,xCopy=lwlrTestPlot(dataMat,labelMat,k=0.01)
     make_plot(dataMat,labelMat,xCopy,yHat)
+    yHat,xCopy=lwlrTestPlot1(dataMat,labelMat,k=0.01)
+    make_plot(dataMat,labelMat,xCopy,yHat)
+
