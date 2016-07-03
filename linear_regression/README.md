@@ -69,7 +69,7 @@
         
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=w%5E%7Bi%7D%3Dexp(-%5Cfrac%7B(x%5E%7Bi%7D-x)%5E%7B2%7D%7D%7B2k%5E%7B2%7D%7D)" style="border:none;" />
     
-<img src="http://chart.googleapis.com/chart?cht=tx&chl=X%5Ctheta%3DY%20%5C%20%5C%20%3D%3EWX%5Ctheta%3DWY%20%5C%20%5C%20%3D%3EX%5E%7BT%7DWX%5Ctheta%3DX%5E%7BT%7DWY%5C%5C%0A%20%5C%20%5C%20%5C%5C%0Aif%20(X%5E%7BT%7DWX)%5E%7B-1%7D%20then%20%5Ctheta%3D(X%5E%7BT%7DWX)%5E%7B-1%7DX%5E%7BT%7DWY" style="border:none;" />
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=X%5Ctheta%3DY%20%5C%20%5C%20%3D%3EWX%5Ctheta%3DWY%20%5C%20%5C%20%3D%3EX%5E%7BT%7DWX%5Ctheta%3DX%5E%7BT%7DWY%5C%5C%0A%20%5C%20%5C%20%5C%5C%0Aif%20(X%5E%7BT%7DWX)%5E%7B-1%7D%20then%3A%20%5C%20%5C%20%5Ctheta%3D(X%5E%7BT%7DWX)%5E%7B-1%7DX%5E%7BT%7DWY" style="border:none;" />
 
 
 
