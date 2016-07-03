@@ -9,7 +9,7 @@ This repository is used to practice machine learning algorithms.Including: princ
 ### (3).Logistic Regression
 ### (4).Support Vector Machine
 ### (5).Adaboost
-
+### (6).Linear Regression
 
 
 
