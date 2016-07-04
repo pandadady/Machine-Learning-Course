@@ -46,7 +46,7 @@
 
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=var%20%3D%20%5Cfrac%7B1%7D%7Bn-1%7D%5Csum_%7Bi%3D1%7D%5En%20(x%5E%7B(i)%7D-%5Cbar%7Bx%7D)" style="border:none;" />
 
-    (2) Regression tree
+    (2) Model tree
         
         The regression method is linear regression.
         
