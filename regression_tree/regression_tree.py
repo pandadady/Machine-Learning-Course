@@ -164,7 +164,7 @@ def make_plot(xMat,yMat,xCopy,yHat):
     ax.plot(xCopy,yHat,color="red")
     plt.show()
 if __name__ == '__main__':
-    dataSet=loadDataSet('../data/ex2test.txt')
+    dataSet=loadDataSet('./test.txt')
     retTree = createTree(dataSet)
     print retTree
     retTree = prune(retTree,dataSet)
