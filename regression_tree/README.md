@@ -54,7 +54,7 @@
         
         The splitting method is Expected variance.
 
-<img src="http://chart.googleapis.com/chart?cht=tx&chl=var%20%3D%20%5Cfrac%7B1%7D%7Bn-1%7D%5Csum_%7Bi%3D1%7D%5En%20(x%5E%7B(i)%7D-E(x))%5C%5C%0A%5C%5C%0AE(x)%20is%20expected%20value." style="border:none;" />
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=var%20%3D%20%5Cfrac%7B1%7D%7Bn-1%7D%5Csum_%7Bi%3D1%7D%5En%20(x%5E%7B(i)%7D-E(x))%5C%5C%0A%5C%5C%0AE(x)%20%5C%20%5C%20is%20%5C%20%5C%20expected%20%5C%20%5C%20value." style="border:none;" />
         
         
         
