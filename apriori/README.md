@@ -21,9 +21,9 @@
     
     It costs lots of time when the number of items is huge (It must be huge.)
     
-    The Apriori principle said that if a item set is a frequent item set, its super item set musst 
+    The Apriori principle said that if a item set is a non-frequent item set, its super item set must be 
     
-    be a frequent item set. 
+    a non-frequent item set. 
     
 ###2.Detail
 
