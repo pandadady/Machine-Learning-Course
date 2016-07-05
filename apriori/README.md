@@ -7,9 +7,9 @@
     
     Confidence degree measure the intensity of association rule. How to calculate the 
     
-    confidence degree of certain association rule. It is important to understand frequent item sets and support degree
+    confidence degree of certain association rule. It is important to understand frequent item sets 
     
-    Frequent item sets means set of items which often appears together.
+    and support degree.Frequent item sets means set of items which often appears together.
     
     Support degree equal the percent of frequent item sets in the entire data set.
     
@@ -21,7 +21,9 @@
     
     It costs lots of time when the number of items is huge (It must be huge.)
     
-    The Apriori principle said that if a item set is a frequent item set, its super item set musst be a frequent item set
+    The Apriori principle said that if a item set is a frequent item set, its super item set musst 
+    
+    be a frequent item set. 
     
 ###2.Detail
 
