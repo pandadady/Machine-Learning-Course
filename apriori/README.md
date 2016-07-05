@@ -1,7 +1,7 @@
 #Apriori
 ###1.Summary
 
-    It is a association rule analysis algorithm. 
+    It is a association rule searching algorithm. 
     
     Association rule means the rule of 2 item how to be difined have relationship.
     
@@ -26,7 +26,27 @@
     a non-frequent item set. 
     
 ###2.Detail
-
+    
+    The goal of Apriori algorithm is searching association rules. Before searching association rules, it is necessary 
+    
+    to find frequent item sets.
+    
+    How to find frequent item sets?
+    
+    (1) Set min support degree.
+    
+    (2) Calculate 1 element set of data set, frequent item set is the set greater than  min support degree.
+    
+    (3) Calculate 2 element set of data set, frequent item set is the set greater than  min support degree.
+    
+    (4) Go on till all the element set. 
+    
+    How to find association rules?
+    
+    (1) Set min confidence.
+    
+    (2) Loop all the frequent item sets,association rule is the rule greater than  min confidence.
+    
     
     
     
