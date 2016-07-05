@@ -47,6 +47,12 @@
     
     (2) Loop all the frequent item sets,association rule is the rule greater than  min confidence.
     
+###3.Improvement
+
+    The above method of searching frequent item set will cost lots of time.
+    
+    Usually, FP-growth algorithm is used to solve the problem
+    
     
     
     
