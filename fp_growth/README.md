@@ -59,9 +59,9 @@
                 
     (3) Search Frequent item set
         
-        Setp 1: Loop header table,search along the element node link. Search up from each element to the root node of fp-tree
+        Step 1: Loop header table,search along the element node link. Search up from each element to the root 
         
-                Get path end with element of node link.
+                node of fp-tree Get path end with element of node link.
         
         Step 2: Assume path is the sub data set, repeat step 2 
         
