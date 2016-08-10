@@ -11,7 +11,7 @@
     
     (1) The data structure of FP-Tree 
     
-        Tree node In python is shown as below
+        Tree node in python is shown as below
         
         class treeNode:
         
